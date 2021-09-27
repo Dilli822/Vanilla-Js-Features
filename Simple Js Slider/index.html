@@ -1,0 +1,97 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Simple Js Slider </title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <style>
+         *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container{
+  width: 650px;
+  height: 400px;
+  background-image: url("https://unsplash.it/401");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* transition: 4s;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button{
+  outline: none;
+  border: none;
+  opacity: .6;
+  transition: .2s;
+  font-size: 1.5rem;
+  cursor: pointer;
+  /*border: none;
+  border-radius: 50%;*/
+  background-color: #fff;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+     </style>
+ </head>
+ <body>
+     
+
+ <div class="main-container">
+   <div class="container">
+     <button onclick="backward()">
+       <i class="fa fa-arrow-left"></i
+         </button>
+      <button onclick="forward()">
+        <i class="fa fa-arrow-right"></i>
+       </button>
+    </div>
+ </div>
+
+<script type="text/javascript">
+var container = document.querySelector(".container");
+var image = [
+  "https://unsplash.it/402",
+  "https://unsplash.it/403",
+  "https://unsplash.it/404",
+  "https://unsplash.it/401"
+];
+
+var index = 0;
+function forward(){
+  index++;
+  if(index > image.length-1){
+    index = 0
+  }
+  container.style.backgroundImage = `url(${image[index]})`;
+}
+
+function backward (){
+  index--;
+  if(index < 0){
+    index = image.length - 1;
+  }
+  container.style.backgroundImage = `url(${image[index]})`;
+}
+ </script>
+ </body>
+ </html>
