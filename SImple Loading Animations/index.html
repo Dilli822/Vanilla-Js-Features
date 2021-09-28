@@ -1,0 +1,59 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Simple Loading Pulse Animations </title>
+
+     <style>
+.pulse-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+.pulse-bubble{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+  animation: pulse 0.5s infinite;
+}
+.pulse-bubble-1{
+  opacity: .5;
+  animation: pulse .5s ease infinite;
+}
+.pulse-bubble-2{
+  animation: pulse .5s ease infinite;
+}
+.pulse-bubble-2{
+  animation: pulse .5s ease infinite;
+}
+
+@keyframes pulse {
+  from{
+    opacity: 1;
+    transform: scale(1);
+  }
+  to{
+    opacity: .25;
+    transform: scale(0.75);
+  }
+}
+     </style>
+ </head>
+ <body>
+     
+<div class="spinner-box">
+    <div class="pulse-container">
+      <div class="pulse-bubble pulse_bubble-1"> </div>
+      <div class="pulse-bubble pulse_bubble-2"></div>
+      <div class="pulse-bubble pulse_bubble-3"></div>
+    </div>
+  </div>  
+ </body>
+ </html>
