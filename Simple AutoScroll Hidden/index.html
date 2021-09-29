@@ -1,0 +1,77 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   <style>
+    .test{
+        visibility: visible!important;
+    }
+       
+    #myP{
+        position: fixed;
+        visibility: hidden;
+        transition:0.5s ease-in-out;
+        font-size: 3rem;
+        right: 5px;
+        background-color: aqua;
+        padding: .25rem .5rem;
+    }
+
+    img{
+        height: 100%;
+        max-width: 100%;
+    }
+    p{
+     text-align: justify;
+     line-height: 2rem;
+     letter-spacing: 2px;
+     }
+     
+    figure{
+        position: absolute;
+        left: 40%;
+        transform: translate(-40%);
+    }
+   </style>
+    </head>
+      <body style="height:1500px">
+            
+        
+            <p id="top">Scroll down this page.
+            Professionally Designed + Pixel-Perfect
+            Each and every symbol is designed from scratch against guidelines and standards forged from years of experience of illustrating and designing icons. The result is a consistent look and feel that spans thousands of icons across three unique styles.
+            Introducing Duotone Icons
+            Add another layer to your designs with our new duotone icons, available as part of Font Awesome Pro. These beautiful icons work out-of-the-box by inheriting your project’s base color, or customize them however you’d like.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam accusamus expedita maxime explicabo iste deleniti animi distinctio odit exercitationem, nobis vitae ex reiciendis quam commodi tempora sunt, quos molestiae doloremque laudantium sapiente? Dolor, numquam earum voluptas nemo ducimus pariatur sed rem beatae dicta, vero inventore nesciunt animi accusantium dolorem possimus!
+        </p>
+        <figure>
+        <img src="https://unsplash.it/850"/>
+        </figure>
+      <p id="myP">
+      <span>
+        <a href="#top">
+          <i class="fa fa-angle-up"></i></a>
+       </span>
+       </p>
+    
+    <script type="text/javascript">
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("myP").className = "test";
+        } else {
+            document.getElementById("myP").className = "";
+        }
+    }
+    </script>
+      
+    
+ </body>
+ </html>
