@@ -1,0 +1,63 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+
+     <style>
+
+h1{
+  font-family: sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 26ch;
+  animation: autotype 5s steps(27, end),
+    cusros-blink 0.2s step-end infinite alternate;
+}
+
+@keyframes autotype {
+  from{
+    width: 0;
+  }
+}
+
+@keyframes cursor-blink{
+  50%{
+    border-color: transparent;
+  }
+}
+  .img{
+    margin-top: -4rem;
+    animation: fadeIn 30s;
+    margin-left: 23rem;
+  }
+  @keyframes fadeIn{
+      0%{
+        opacity: 0;
+    }
+        50%{
+          opacity: 0.5;
+        }
+      100%{
+        opacity: 1;
+      }
+  }
+     </style>
+ </head>
+ <body>
+
+    
+<div>
+    <h1> Typing Effect in CSS </h1>
+    <figure class="img">
+      <img src="https://unsplash.it/205"/>
+    </figure>
+      </div>
+    
+    
+     
+ </body>
+ </html>
