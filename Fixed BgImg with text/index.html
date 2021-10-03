@@ -128,7 +128,6 @@
         }
         .fBox li span{
             border-right: 2px solid #fff;
-            padding: 1rem;
             
         }
         li b, li small{
@@ -136,44 +135,76 @@
             margin-left: 1rem;
 
         }
-       
+        .fBox{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+      
+        .items{
+            display: flex;
+            border: 1px solid red;
+        }
+        .items div span{
+            border-right: 2px solid #fff;
+            
+        }
+       b,small{
+            font-size: 1.5rem;
+        }
+
+        @media only screen and (max-width: 467px) {
+            .items{
+            width: 100%;
+            border: 1px solid red;
+        }
+        }
     </style>
 
     <div class="bgImg">
         <div class="fBox">
-
-            <li>
+        <div class="items">
+            <div>
                 <span>
                     <i class="fas fa-user-friends"></i>
                 </span>
-                </li>
+            </div>
 
-                <li>
-                <b>5</b> <br>
+            <div>
+            <b>5</b> <br>
+
                 <small>flglgklfgkfl</small>
-            </li>
-
-            <li>
+                </div>
+        </div>
+        <div class="items">
+            <div>
                 <span>
-                    <i class="fa fa-calendar"></i>
+                    <i class="fas fa-user-friends"></i>
                 </span>
-                </li>
+            </div>
 
-                <li>
-                <b>5</b> <br>
-                <small>THIS IS SMALL</small>
-            </li>
+            <div>
+            <b>5</b> <br>
 
-            <li>
+                <small>flglgklfgkfl</small>
+                </div>
+        </div>
+        <div class="items">
+            <div>
                 <span>
-                    <i class="fa fa-clock"></i>
+                    <i class="fas fa-user-friends"></i>
                 </span>
-                </li>
+            </div>
 
-                <li>
-                <b>5</b> <br>
-                <small>THIS IS SMALL</small>
-            </li>
+            <div>
+            <b>5</b> <br>
+
+                <small>flglgklfgkfl</small>
+                </div>
+        </div>
+          
+</div>
+             
 
             
         </div>
