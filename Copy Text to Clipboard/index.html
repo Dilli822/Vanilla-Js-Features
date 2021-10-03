@@ -1,0 +1,36 @@
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Simple Copy & Paste Text /Clipboard using js </title>
+ </head>
+ <body>
+     <h3>
+        Simple Copy & Paste Text /Clipboard using js
+     </h3>
+<input type="text"value="Hey folk! you can copy me!" id="input">
+<button onclick="copyText()">
+  copy
+</button>
+<br>
+<label> Paste the copied clipboard here!</label>
+<input type="text" />
+
+<script>
+    
+
+function copyText(){
+  var a = document.getElementById("input");
+  
+  a.select();
+  a.setSelectionRange(0, 99999);
+  
+  alert("copied the clipboard:" + a.value)
+}
+</script>
+ </body>
+ </html>
