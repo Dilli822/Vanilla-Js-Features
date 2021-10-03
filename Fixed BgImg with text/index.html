@@ -28,9 +28,9 @@
     color: #fff;
     }
     
-    .icon:not(:last-child){
+    /* .icon:not(:last-child){
     border-right: 1px solid #fff;
-     }
+     } */
     .fas{
     font-size: 3.4rem;
     color: #ffffffe8;
@@ -58,9 +58,9 @@
     display: block;
     margin:0 auto;
     }
-    .icon:not(:last-child){
+    /* .icon:not(:last-child){
     border-right: none;
-     }
+     } */
     img.icon,
     .fas,
     .items{
@@ -71,11 +71,12 @@
     padding:2rem;
     background-attachment: scroll;
     }
-    }
+}
+    
     </style>
     </head>
     <body>
-    <div class="bgImg">
+    <!-- <div class="bgImg">
         <div class="fBox">
     <span class="icon">
     <i class="fas fa-user-friends"></i>
@@ -108,22 +109,34 @@
     <div class="items">
     <b>50<br>
     <h6>
-    EVENT REPORTS
+    EVENT REPORTS 
     </h6>
     </b>
     </div>
     </div>
-    </div>
+    </div>--->
 
 
     <style>
         li{
             list-style-type: none;
         }
-        .fBox li span i:not(:last-child){
-            border-right: 1px solid #fff;
+
+        .fa-user{
+            font-size: 2rem;
+            padding-right: 0.85rem;
+        }
+        .fBox li span{
+            border-right: 2px solid #fff;
+            padding: 1rem;
             
         }
+        li b, li small{
+            font-size: 1rem;
+            margin-left: 1rem;
+
+        }
+       
     </style>
 
     <div class="bgImg">
@@ -131,7 +144,18 @@
 
             <li>
                 <span>
-                    <i class="fa fa-user"></i>
+                    <i class="fas fa-user-friends"></i>
+                </span>
+                </li>
+
+                <li>
+                <b>5</b> <br>
+                <small>flglgklfgkfl</small>
+            </li>
+
+            <li>
+                <span>
+                    <i class="fa fa-calendar"></i>
                 </span>
                 </li>
 
@@ -142,18 +166,7 @@
 
             <li>
                 <span>
-                    <i class="fa fa-user"></i>
-                </span>
-                </li>
-
-                <li>
-                <b>5</b> <br>
-                <small>THIS IS SMALL</small>
-            </li>
-
-            <li>
-                <span>
-                    <i class="fa fa-user"></i>
+                    <i class="fa fa-clock"></i>
                 </span>
                 </li>
 
