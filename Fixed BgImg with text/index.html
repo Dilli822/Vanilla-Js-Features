@@ -1,0 +1,169 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Fixed Bg Img with text</title>
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <style>
+    .bgImg{
+       background-image: url("https://e-destinaccess.com/new-images/stock01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding: 5rem;
+    
+    }
+    .fBox{
+    border: px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    }
+    
+    .icon:not(:last-child){
+    border-right: 1px solid #fff;
+     }
+    .fas{
+    font-size: 3.4rem;
+    color: #ffffffe8;
+    }
+    img.icon{
+    filter: brightness(0) invert(1);
+    margin: 0 2rem;
+    }
+    .fas,
+    .items{
+    margin: 0 1rem;
+    }
+    .items h6{
+    color:#fff;
+    }
+    @media only screen and (max-width: 767px){
+    img.icon{
+    filter: brightness(0) invert(1);
+    margin: 0;
+    }
+    }
+    
+    @media only screen and (max-width: 450px){
+    .fBox{
+    display: block;
+    margin:0 auto;
+    }
+    .icon:not(:last-child){
+    border-right: none;
+     }
+    img.icon,
+    .fas,
+    .items{
+    margin: 0;
+    padding: 0;
+    }
+    .bgImg{
+    padding:2rem;
+    background-attachment: scroll;
+    }
+    }
+    </style>
+    </head>
+    <body>
+    <div class="bgImg">
+        <div class="fBox">
+    <span class="icon">
+    <i class="fas fa-user-friends"></i>
+    </span>
+    <div class="items">
+    <b>3 
+    <h6>
+    DESTIN PRODUCTS
+    </h6>
+    </b>
+    </div>
+    
+    <span class="icon">
+    <img class="icon" src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-calendar-interface-kiranshastry-gradient-kiranshastry.png"/>
+    </span>
+    
+    
+    <div class="items">
+    <b>20 <br>
+    <h6>
+    SMART BUSINESS TOOLS
+    </h6>
+    </b>
+    </div>
+    
+    <span class="icon">
+    <img class="icon" src="https://img.icons8.com/ios/000000/alarm-clock--v1.png"/>
+    </span>
+    
+    <div class="items">
+    <b>50<br>
+    <h6>
+    EVENT REPORTS
+    </h6>
+    </b>
+    </div>
+    </div>
+    </div>
+
+
+    <style>
+        li{
+            list-style-type: none;
+        }
+        .fBox li span i:not(:last-child){
+            border-right: 1px solid #fff;
+            
+        }
+    </style>
+
+    <div class="bgImg">
+        <div class="fBox">
+
+            <li>
+                <span>
+                    <i class="fa fa-user"></i>
+                </span>
+                </li>
+
+                <li>
+                <b>5</b> <br>
+                <small>THIS IS SMALL</small>
+            </li>
+
+            <li>
+                <span>
+                    <i class="fa fa-user"></i>
+                </span>
+                </li>
+
+                <li>
+                <b>5</b> <br>
+                <small>THIS IS SMALL</small>
+            </li>
+
+            <li>
+                <span>
+                    <i class="fa fa-user"></i>
+                </span>
+                </li>
+
+                <li>
+                <b>5</b> <br>
+                <small>THIS IS SMALL</small>
+            </li>
+
+            
+        </div>
+    </div>
+ </body>
+ </html>
