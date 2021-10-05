@@ -228,3 +228,210 @@ aside.border-bottom{
 margin-top: 5rem;
 }
 </style>
+
+
+
+---contact page---
+---left side box
+
+<style>
+.call, .mail{
+   display: flex;
+   margin: 1.5rem 0;
+   padding: 0.5rem 0;
+   border-radius: 3px;
+   border: 1px solid #d5d5d5; 
+ }
+
+
+.mail span i.far{
+   font-size: 3rem;
+}
+.call h6, .mail h6{
+    font-size: 1.85rem;
+    font-weight: 490;
+}
+.call h6,
+.call a,
+.mail a,
+.mail h6{
+   margin: 0 1rem;
+   padding-left: 2rem;
+   color: #000;
+   text-decoration: none!important;
+   
+}
+
+.call h6:not(:last-child),
+.mail h6:not(:last-child){
+   line-height: 55px;
+   border-left: 1px solid #d5d5d5;
+}
+.mail span, .call img{
+  padding: 1rem;
+
+}
+
+@media only screen and (max-width: 990px) and (min-width: 768px){
+.call h6, .call a, .mail h6, .mail a{
+margin: 0;
+padding:0 0.1rem;
+}
+}
+@media only screen and (max-width: 767px){
+.call h6, .call a, .mail h6, .mail a{
+   margin: 0 1.5rem;
+   padding: 0 1.5rem;
+}
+}
+</style>
+
+
+
+----- contact page left side---
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+*{
+  font-family: "Raleway", sans-serif;
+list-style: none;
+}
+.heCon h1{
+background-color: #fff;
+}
+.heCon h1{
+font-weight: bold!important;
+font-size: 2rem;
+padding: 1rem 0rem;
+}
+.heCon aside{
+   margin: 1rem 0;
+   padding: 0rem;
+}
+</style>
+
+
+---- About us
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+.about{
+ font-family: Raleway;
+}
+.about h2{
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+aside.about-bor{
+ border-bottom: 1px solid #d5d5d5;
+}
+</style>
+
+
+---about us article description
+
+<style>
+
+.about article p.aP{
+ font-size: 1.2rem;
+ line-height: 35px;
+ opacity: 0.7;
+ }
+
+ </style>
+
+
+
+ --- news page
+
+ <style>
+*{
+font-family: "Raleway", sans-serif;
+}
+li{
+ list-style: none;
+}
+.news-wrapper{
+ background-color: #f5f6f7;
+ margin-top: -15%;
+}
+.inner-news{
+   padding: 2rem;
+}
+.inner-news h2{
+   font-size: 1.5rem;
+   font-weight: 550;
+   padding-top: 0.5rem;
+}
+.inner-news h2 a{
+ text-decoration: none!important;
+ color: #000;
+}
+.inner-news article{
+ font-size: 1.1rem;
+ line-height: 30px;
+}
+</style>
+
+-- news headings
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+.headings h1{
+ color: #fff;
+ font-family: "Raleway", sans-seif;
+ font-size: 3.25rem;
+ font-weight: bold;
+ margin: 1rem 0;
+ padding: 1rem 0;
+ 
+}
+</style>
+
+---team page-
+-- headings
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+*{
+ list-style: none;
+}
+
+section.quotes h3{
+ font-size: 1.85rem!important;
+ font-weight: 600;
+ letter-spacing: 1.5px;
+ margin-top: 3rem;
+}
+aside.bor{
+border-bottom: 1px solid #d5d5d5;
+}
+</style>
+
+
+------ team details
+<link href="https://fonts.googleapis.com/css2?family=Raleway:&display=swap" rel="stylesheet">
+
+<style>
+.team h2{
+font-size: 24px;
+font-weight: 600;
+}
+.team h2,.team p{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: Raleway;
+  line-height: 40px;
+}
+
+aside.bord{
+  margin: 1rem 0;
+  border-bottom: 3px solid #008ccb;
+}
+
+</style>

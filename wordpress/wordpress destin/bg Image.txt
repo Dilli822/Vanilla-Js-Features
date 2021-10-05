@@ -1,0 +1,230 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<style>
+.bgImg{
+   background-image: url("https://e-destinaccess.com/new-images/stock01.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed;
+padding: 5rem;
+
+}
+.fBox{
+border: px solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+}
+
+.icon:not(:last-child){
+border-right: 1px solid #fff;
+ }
+.fBox .fas, 
+.fBox .fa-calendar-check-o, 
+.fBox .material-icons{
+font-size: 3.4rem;
+color: #ffffffe8;
+}
+img.icon{
+filter: brightness(0) invert(1);
+margin: 0 2rem;
+}
+.fBox
+.fas,i.fa,
+.items{
+margin: 0 1rem;
+}
+.items h6{
+color:#fff;
+}
+@media only screen and (max-width: 767px){
+img.icon{
+filter: brightness(0) invert(1);
+margin: 0;
+}
+}
+
+@media only screen and (max-width: 600px){
+.fBox{
+display: block;
+margin:0 auto;
+}
+.icon:not(:last-child){
+border-right: none;
+ }
+img.icon,
+.material-icons,
+.fas,
+.items{
+margin: 0;
+padding: 0;
+}
+.bgImg{
+padding:2rem;
+background-attachment: scroll;
+}
+}
+</style>   
+
+
+
+-- reasons for choosing us
+
+<style>
+h2{
+margin-top: 5rem;
+font-family: Raleway;
+font-weight: bolder!important;
+}
+</style>
+
+
+--easy to use mobile friendly
+
+
+<style>
+.features{
+  font-family: Raleway;
+  background-color: #f9f9f9;
+  padding: 1.75rem 3rem;
+  margin-top: -3rem;
+  
+}
+.features h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.85rem;
+ }
+@media only screen and (min-width: 767px){
+.features{
+     min-height: 330px;
+}
+}
+</style>
+
+----2nd 3rd 4th mid nav
+--<style>
+   .midNav h6{
+         text-align: center;
+    }
+   .midNav h6 a{
+     color: #000;
+     text-decoration: none!important;
+     
+   }
+</style>
+
+
+--<style>
+   .midNav h6{
+         text-align: center;
+    }
+   .midNav h6 a{
+     color: #000;
+     text-decoration: none!important;
+     
+   }
+</style>
+
+
+----video part
+
+
+<style>
+.video-content{
+ font-family: "Raleway",sans-serif;
+}
+</style>
+
+
+---reason for choosing us
+
+<style>
+.text-box{
+
+text-align: justify;
+}
+.text-box h2{
+font-weight: 750;
+}
+li{
+list-style: none;
+}
+.text-box{
+  font-family: 'Raleway', sans-serif;
+}
+p.lText{
+margin-top: 3rem;
+}
+
+</style>
+
+
+----------------------learn more form 
+<style>
+.form-wrapper{
+ font-family: Raleway;
+ padding: 1rem 2rem;
+}
+.form-wrapper i.fa{
+margin: 0;
+color: #000;  
+ }
+
+.form-wrapper h2{
+ font-weight: 750;
+}
+
+input.custom-input{
+width: 100%;
+border-top: none!important;
+border-right: none!important;
+border-left: none!important;
+border-bottom: 2px solid #d5d5d5!important;
+background-color:transparent!important;
+outline: none!important;
+margin-top: -2rem!important;
+height: 0!important;
+margin-bottom: 1.5rem!important;
+}
+
+label.lbl{
+font-size: 1.15rem;
+margin: 0 .5rem;
+}
+.form-wrapper .fa, .far{
+font-size: 1.35rem;
+}
+
+button.send{
+width: 100%;
+background-color: #EFEFEF;
+transition: all 0.5s;
+padding: 1.35rem;
+}
+button.send:hover{
+background-color: #fff;
+}
+button.send a{
+color: #000;
+text-decoration: none!important;
+}
+button.send .fa-angle-right{
+ color: #3c3b3b75;
+}
+input.last{
+   margin-top: 3rem!important;
+}
+aside.border-bottom{
+margin-top: 3rem;
+border-bottom: 4px solid #000;
+width: 100%;
+}
+
+aside.border-bottom{
+margin-top: 5rem;
+}
+</style>

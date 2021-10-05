@@ -1,0 +1,267 @@
+.elementor-46 .elementor-element.elementor-element-547f36e > .elementor-widget-container{margin:0% 0% 0% 0%;}.elementor-46 .elementor-element.elementor-element-d837e29{margin-top:4rem;margin-bottom:4rem;}.elementor-46 .elementor-element.elementor-element-fb735db > .elementor-widget-container{padding:2rem 2rem 2rem 2rem;background-color:#F9F9F9;}.elementor-46 .elementor-element.elementor-element-fc51e15 > .elementor-widget-container{padding:2rem 2rem 2rem 2rem;background-color:#F9F9F9;}.elementor-46 .elementor-element.elementor-element-2ceec14 > .elementor-widget-container{padding:2rem 2rem 2rem 2rem;background-color:#F9F9F9;}.elementor-46 .elementor-element.elementor-element-840ed2f > .elementor-container{max-width:750px;}.elementor-46 .elementor-element.elementor-element-f03095a{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-46 .elementor-element.elementor-element-f03095a > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+/* added and overrided custom css **/
+ *{
+    font-family: 'Raleway', sans-serif!important;
+ }
+.elementor-element .elementor-widget-container .head h2,
+  .elementor-element .elementor-widget-container .head h1,
+  .elementor-element .elementor-widget-container .head h4{
+  padding: 0!important;
+  margin: 0!important;
+  color: #fff!important;
+
+}
+
+@media only screen and (max-width: 320px){
+.elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -34%!important;
+  }
+  .elementor-element .elementor-widget-container .head h2,
+  .elementor-element .elementor-widget-container .head h1{
+      font-weight: 500!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h2{
+      font-size: 1rem!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h1{
+      font-size: 1.1rem!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h4{
+      font-size: 1rem!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h2,
+  .elementor-element .elementor-widget-container .head h1,
+  .elementor-element .elementor-widget-container .head h4{
+  padding: 0!important;
+  margin: 0!important;
+  color: #fff!important;
+
+}
+}
+
+
+@media only screen and (max-width: 567px) and (min-width: 320px){
+    .elementor-element .elementor-widget-container .head{
+        color: red!important;
+        text-align: center!important;
+        margin-top: -34%!important;
+      }
+
+      .elementor-element .elementor-widget-container .head h2,
+      .elementor-element .elementor-widget-container .head h1{
+          font-weight: 500!important;
+      }
+    
+      .elementor-element .elementor-widget-container .head h2{
+          font-size: 1.35rem!important;
+      }
+    
+      .elementor-element .elementor-widget-container .head h1{
+          font-size: 1.5rem!important;
+      }
+    
+      .elementor-element .elementor-widget-container .head h4{
+          font-size: 1rem!important;
+    }
+}
+
+@media only screen and (max-width: 667px) and (min-width: 567px){
+    .elementor-element .elementor-widget-container .head{
+        color: red!important;
+        text-align: center!important;
+        margin-top: -30%!important;
+      }
+
+    .elementor-element .elementor-widget-container .head h2,
+    .elementor-element .elementor-widget-container .head h1{
+        font-weight: 600!important;
+    }
+  
+    .elementor-element .elementor-widget-container .head h2{
+        font-size: 1.5rem!important;
+    }
+  
+    .elementor-element .elementor-widget-container .head h1{
+        font-size: 1.85rem!important;
+    }
+  
+    .elementor-element .elementor-widget-container .head h4{
+        font-size: 1.25rem!important;
+  }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 667px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -30%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 1.95rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 2.25rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 1.4rem!important;
+}
+} 
+
+
+@media only screen and (max-width: 990px) and (min-width: 767px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -28%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 1.95rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 2.25rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 1.4rem!important;
+}
+} 
+
+
+@media only screen and (max-width: 1200px) and (min-width: 990px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -28%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 2rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 2.25rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 1.4rem!important;
+}
+} 
+
+@media only screen and (max-width: 1440px) and (min-width: 1200px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -32%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 2.5rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 3rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 2rem!important;
+}
+} 
+
+@media only screen and (min-width: 1440px) and (max-width: 1550px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -27%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 700!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size:  2.5rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 3rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 2rem!important;
+}
+} 
+
+@media only screen and (min-width: 1550px) and (max-width: 1700px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -37%!important;
+  }
+}
+  @media only screen and (min-width: 1550px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -26%!important;
+  }
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 700!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 2.85rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 3.5rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 2.35rem!important;
+}
+} 
+
+@media only screen and (min-width: 17000px) and (max-width: 1920px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -27%!important;
+  }
+}

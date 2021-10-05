@@ -1,0 +1,22 @@
+<div class="news-wrapper">
+<div class="inner-news">
+<li>
+<span>
+<i class="fa fa-calendar"></i>
+</span>
+ <time>
+03 October, 2019 
+</time>
+</li>
+
+<h2>
+<a href="">
+CLI Worldwide Expands Services
+</a>
+</h2>
+
+<article>
+As CLi continues to make further advancements as a transportation leader in corporate group travel, the company is taking another leap forward in providing a full service solution for planners by partnering with e-destinACCESS Inc.
+</article>
+</div>
+</div>
