@@ -1,0 +1,57 @@
+<aside class="lA">
+</aside>
+<div class="form-wrapper">
+<h2> Learn More </h2>
+
+<form action="" method="">
+<span>
+<i class="far fa-user"></i>
+</span>
+<label> Name</label>
+<br>
+<input type="text">
+<br>
+
+<span>
+<i class="far fa-envelope"></i>
+</span>
+<label>Email </label>
+<br>
+<input type="email">
+<br>
+
+<span>
+<img class="ico" src="https://img.icons8.com/windows/27/000000/phone.png">
+</span>
+<label>Phone </label>
+<br>
+<input type="text"/>
+<br>
+
+<span>
+<i class="fas fa-laptop"></i>
+</span>
+<label> Website </label>
+<br>
+<input type="text"/>
+<br>
+
+
+<span>
+<i class="far fa-comment"></i></span>
+<label> Message</label>
+<br>
+<input type="text"/>
+
+<br><br>
+
+<button class="learn-more">
+<a href="">
+LEARN MORE
+<span>
+<i class="fa fa-angle-right">
+</i> </span> </a>
+</button>
+
+</form>
+</div>
