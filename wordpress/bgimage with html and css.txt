@@ -1,0 +1,178 @@
+<div class="bgImg">
+<div class="fBox">
+<nav>
+
+<li>
+<span>
+<i class="fas fa-user-friends"> </i>
+</span>
+</li>
+<b> 
+<li>3 </li>
+<li>
+<small> DESTIN PRODUCTS </small>
+</li> </b>
+
+
+<li>
+<span>
+<i class="fa fa-calendar-check"> </i>
+</span>
+</li>
+<b> 
+<li>20 </li>
+<li>
+<small> SMART BUSINESS TOOLS </small>
+</li> </b>
+
+
+
+
+<li>
+<span>
+<i class="fa fa-clock"> </i>
+</span>
+</li>
+<b> 
+<li>50 </li>
+<li>
+<small> EVENT REPORTS</small>
+</li> </b>
+
+
+</nav>
+</div>
+</div>
+
+.elementor-kit-5{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}
+h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+li{
+    list-style-type: none!important;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:hover > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:focus > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-toggle-on > ul.mega-sub-menu {
+    visibility: visible;
+    width: 1250px!important;
+    margin-left: -50rem!important;
+    margin-top: 2.95rem;
+}
+
+.mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-columns-2-of-8 mega-menu-item-custom_html-3 .textwidget custom-html-widget{
+    padding: 2rem 0;
+}
+#mega-menu-item-custom_html-2,
+.mega-menu-item #mega-menu-item-custom_html-6{
+    background-color: #cce8ff!important;
+}
+
+@media only screen and (max-width:1310px){
+    #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-megamenu > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-flyout ul.mega-sub-menu{
+        margin-left: -48rem!important;
+    }
+    #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:hover > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:focus > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-toggle-on > ul.mega-sub-menu {
+     width: 400px!important;
+    }
+
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item{        width: 100%;
+    width: 100%!important;
+    }
+}
+
+@media only screen and (max-width: 1245px) and (min-width: 1140px){
+    #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-megamenu > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-flyout ul.mega-sub-menu{
+        margin-left: -40rem!important;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-megamenu > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-flyout ul.mega-sub-menu{
+        margin-left: -25rem!important;
+    }
+}
+
+.elementor-element .elementor-widget-container aside.bA{
+    border-bottom: 3px solid #000;
+}
+
+.elementor-element .elementor-widget-container .form-wrapper{
+  font-family: 'Raleway', sans-serif!important;
+}
+
+.elementor-element .elementor-widget-container .form-wrapper input{
+    width: 100%;
+}
+
+.elementor-element .elementor-widget-container .richFeatures{
+    text-align: center!important;
+}
+
+.elementor-element .elementor-widget-container button.btn-more{
+    background-color: #efefef!important;
+    width: 100%!important;
+
+}
+
+.elementor-element .elementor-widget-container button.btn-more a{
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+.elementor-element .elementor-widget-container button.btn-more .fa-angle-right{
+    color: #000!important;
+    font-size: 1.25rem!important;
+}
+
+
+.elementor-element .elementor-widget-container .bgImg{
+ background-image: url("https://e-destinaccess.com/new-images/stock01.jpg");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment:fixed;
+ padding: 5rem;
+ 
+ }
+ .elementor-element .elementor-widget-container .fBox nav{
+ border: px solid red;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ }
+
+ .elementor-element .elementor-widget-container .fBox nav li span{
+ border-right: 1px solid #fff;
+ }
+
+ @media only screen and (max-width: 667px){
+    .elementor-element .elementor-widget-container .fBox nav{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+
+    .elementor-element .elementor-widget-container .fBox nav li span{
+        border-right: transparent;
+        font-size: 2.5rem;
+    }
+    .elementor-element .elementor-widget-container .fBox nav li {
+        font-size: 1.75rem;
+    }
+ }
+
+ @media only screen and (min-width: 667px){
+    .elementor-element .elementor-widget-container .fBox nav li span{
+        font-size: 4.5rem;
+    }
+    .elementor-element .elementor-widget-container .fBox nav li {
+        font-size: 1.75rem;
+        padding: 0 0.5rem;
+    }
+    .elementor-element .elementor-widget-container .fBox nav li span i{
+        margin-right: 0.5rem;
+    }
+ }

@@ -1,0 +1,42 @@
+
+<div class="richFeatures">
+<figure style="text-align: center;">
+<img src="https://e-destinaccess.com/new-images/icons/accuracy-icon.png" alt="destin-accuracy">
+</figure>
+
+<h3>   </h3>
+
+<article class="">
+<p>
+
+<p>
+</article>
+</div>
+
+<div class="richFeatures">
+<figure style="text-align: center;">
+<img src="https://e-destinaccess.com/new-images/icons/wand-icon01.png" alt="">
+</figure>
+
+<h3> Easy-To-Use </h3>
+
+<article class="">
+<p>
+The destin™ platform is an easy to navigate system - use our destination catalogs to find a marketplace of meeting and event goods and services.
+<p>
+</article>
+</div>
+
+<div class="richFeatures">
+<figure style="text-align: center;">
+<img src="https://e-destinaccess.com/new-images/icons/accuracy-icon.png" alt="destin-accuracy">
+</figure>
+
+<h3>   </h3>
+
+<article class="">
+<p>
+
+<p>
+</article>
+</div>
