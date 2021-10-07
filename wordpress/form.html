@@ -1,0 +1,134 @@
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Sample Form </title>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+   <style>
+    .contact-wrapper{
+        border: 1px solid red;
+        width: 50%;
+    }
+    .one, .sec{
+        display: flex;
+        width: 100%;
+    }
+    .one input, .sec input{
+        width: 100%;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #d5d5d5;
+    }
+    .m, .n, label{
+      margin: 0 .5rem;
+     }
+    @media only screen and (max-width: 767px) {
+        .one, .sec{
+            flex-direction: column;
+        }
+        
+    }
+
+    </style>
+ </head>
+ <body>
+
+
+    <!-- <div class="contact-wrapper">
+
+        <div class="one">
+            <div class="n">
+                <span>
+                    <i class="far fa-user"> </i>
+                    </span>
+          <label>label</label>
+          <br>
+          <input>
+            </div>
+             <div class="n">
+                <span>
+                    <i class="far fa-envelope"> </i>
+                    </span>
+          <label>label</label>
+          <br>
+          <input>
+            </div>
+
+        </div>
+
+
+                <div class="sec">
+                    <div class="m">
+                        <span>
+                            <i class="fa fa-phone"> </i>
+                            </span>
+                  <label>label</label>
+                  <br>
+                  <input>
+                    </div>
+                     <div class="m">
+                        <span>
+                            <i class="fa fa-laptop"> </i>
+                            </span>
+                  <label>Website</label>
+                  <br>
+                  <input>
+                    </div>
+                    <div>
+                    </div>
+                    </div>
+
+                    <div>
+                        <span>
+                            <i class="far  fa-comment"> </i>
+                            </span> <br>
+                            <textarea>
+    
+                            </textarea>
+                    </div>
+
+                    <button type="submit">
+                        <a href="">submit</a>
+                    </button>
+ -->
+   <style>
+       .right-wrapper{
+           display: flex;
+           border: 1px solid #efefef;
+           border-radius: 3px;
+       }
+       .in-wrap span:not(:last-child){
+           border-right: 1px solid #ff0707;
+       }
+       .in-wrap h3{
+           margin: 0;
+       }  
+   </style>
+     <div class="right-wrapper">
+         <div class="in-wrap">
+                <span>
+                    <i class="fa fa-phone"></i>
+                 </span>
+                <h3>Give us a Call</h3>
+        </div>
+
+     </div>
+
+     <div class="right-wrapper"> 
+        <div class="in-wrap">
+            <span>
+                <i class="fa fa-phone"></i>
+             </span>
+            <h3>Give us a Call</h3>
+        </div>
+    </div>
+
+ </body>
+ </html>

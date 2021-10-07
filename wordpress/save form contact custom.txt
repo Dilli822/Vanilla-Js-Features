@@ -1,0 +1,55 @@
+
+<div class="form-wrapper">
+<form action="" method="">
+<span>
+<i class="far fa-user "> </i>
+</span>
+<label> Name </label>
+<br>
+<input type="text" >
+<br>
+
+<span>
+<i class="far fa-envelope "> </i>
+</span>
+<label> Email </label>
+<br>
+<input type="text">
+<br>
+
+
+<span>
+<i class="fa fa-phone "> </i>
+</span>
+<label> Phone </label>
+<br>
+<input type="text">
+<br>
+
+
+<span>
+<i class="fa fa-laptop"></i>
+</span>
+<label> Website </label>
+<br>
+<input type="text">
+<br>
+
+<span>
+<i class="far fa-comment"> </i>
+</span>
+<label> Message</label>
+<br>
+<input type="text">
+<br>
+<br>
+
+<button type="submit" id="submit" type="submit" class="btn-sbt">
+<a href=""> CONTACT US NOW!</a>
+&nbsp;&nbsp;
+</button>
+</form>
+</div>
+
+https://e-destinaccess.com/images/team/2.jpg
+
