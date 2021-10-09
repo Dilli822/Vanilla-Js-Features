@@ -1,0 +1,612 @@
+.elementor-kit-32{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+}
+ a{
+     text-decoration: none;
+ }
+.elementor-element .elementor-widget-container .richFeatures figure,
+.elementor-element .elementor-widget-container .richFeatures h3{
+    text-align: center!important;
+}
+
+    .elementor-element .elementor-widget-container .richFeatures h3{
+    margin: 0.65rem 0;
+    padding: 0.65rem 0;
+    font-weight: 600;
+}
+
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated .richFeatures{
+    padding: 2.5rem;
+    margin: 0rem!important; 
+    background-color: #f9f9f9;
+    letter-spacing: 0!important;
+}
+
+.elementor-element .elementor-widget-container .midNav h6{
+    text-align: center;  
+}
+
+.elementor-element .elementor-widget-container .midNav h6 a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+/********* Text on Main ********/
+.elementor-element .elementor-widget-container .head h2,
+  .elementor-element .elementor-widget-container .head h1,
+  .elementor-element .elementor-widget-container .head h4{
+  padding: 0!important;
+  margin: 0!important;
+  color: #fff!important;
+
+}
+
+@media only screen and (max-width: 320px){
+.elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -34%!important;
+  }
+  .elementor-element .elementor-widget-container .head h2,
+  .elementor-element .elementor-widget-container .head h1{
+      font-weight: 500!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h2{
+      font-size: 1rem!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h1{
+      font-size: 1.1rem!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h4{
+      font-size: 1rem!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h2,
+  .elementor-element .elementor-widget-container .head h1,
+  .elementor-element .elementor-widget-container .head h4{
+  padding: 0!important;
+  margin: 0!important;
+  color: #fff!important;
+
+}
+}
+
+
+@media only screen and (max-width: 567px) and (min-width: 320px){
+    .elementor-element .elementor-widget-container .head{
+        color: red!important;
+        text-align: center!important;
+        margin-top: -34%!important;
+      }
+
+      .elementor-element .elementor-widget-container .head h2,
+      .elementor-element .elementor-widget-container .head h1{
+          font-weight: 500!important;
+      }
+    
+      .elementor-element .elementor-widget-container .head h2{
+          font-size: 1.35rem!important;
+      }
+    
+      .elementor-element .elementor-widget-container .head h1{
+          font-size: 1.5rem!important;
+      }
+    
+      .elementor-element .elementor-widget-container .head h4{
+          font-size: 1rem!important;
+    }
+}
+
+@media only screen and (max-width: 667px) and (min-width: 567px){
+    .elementor-element .elementor-widget-container .head{
+        color: red!important;
+        text-align: center!important;
+        margin-top: -30%!important;
+      }
+
+    .elementor-element .elementor-widget-container .head h2,
+    .elementor-element .elementor-widget-container .head h1{
+        font-weight: 600!important;
+    }
+  
+    .elementor-element .elementor-widget-container .head h2{
+        font-size: 1.5rem!important;
+    }
+  
+    .elementor-element .elementor-widget-container .head h1{
+        font-size: 1.85rem!important;
+    }
+  
+    .elementor-element .elementor-widget-container .head h4{
+        font-size: 1.25rem!important;
+  }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 667px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -30%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 1.95rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 2.25rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 1.4rem!important;
+}
+} 
+
+
+@media only screen and (max-width: 990px) and (min-width: 767px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -28%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 1.95rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 2.25rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 1.4rem!important;
+}
+} 
+
+
+@media only screen and (max-width: 1200px) and (min-width: 990px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -28%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 2rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 2.25rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 1.4rem!important;
+}
+} 
+
+@media only screen and (max-width: 1440px) and (min-width: 1200px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -32%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 2.5rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 3rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 2rem!important;
+}
+} 
+
+@media only screen and (min-width: 1440px) and (max-width: 1550px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -27%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 700!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size:  2.5rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 3rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 2rem!important;
+}
+} 
+
+@media only screen and (min-width: 1550px) and (max-width: 1700px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -37%!important;
+  }
+}
+  @media only screen and (min-width: 1550px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -26%!important;
+  }
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 700!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 2.85rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 3.5rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 2.35rem!important;
+}
+} 
+
+@media only screen and (min-width: 17000px) and (max-width: 1920px){
+    .elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -27%!important;
+  }
+}
+
+
+
+
+/*** Video Part ****/
+.elementor-element .elementor-widget-container .videoH h4{
+    font-weight: 600;
+    margin-bottom: 0!important;
+    margin-top: 1rem!important;
+}
+.elementor-element .elementor-widget-container .videoH aside.boA{
+    border-bottom: 3px solid #008ccb!important;
+}
+
+
+.elementor-element .elementor-widget-container .bgImg{
+    background-image: url("https://e-destinaccess.com/new-images/stock01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding: 5rem;
+    
+    }
+    .elementor-element .elementor-widget-container .fBox nav{
+    border: px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    }
+   
+    .elementor-element .elementor-widget-container .fBox nav li span{
+    border-right: 1px solid #fff;
+    }
+   
+    @media only screen and (max-width: 667px){
+       .elementor-element .elementor-widget-container .fBox nav{
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+       }
+   
+       .elementor-element .elementor-widget-container .fBox nav li span{
+           border-right: transparent;
+           font-size: 2.5rem;
+       }
+       .elementor-element .elementor-widget-container .fBox nav li {
+           font-size: 1.75rem;
+       }
+    }
+   
+    @media only screen and (min-width: 667px){
+       .elementor-element .elementor-widget-container .fBox nav li span{
+           font-size: 4.5rem;
+       }
+       .elementor-element .elementor-widget-container .fBox nav li {
+           font-size: 1.75rem;
+           padding: 0 0.5rem;
+       }
+       .elementor-element .elementor-widget-container .fBox nav li span i{
+           margin-right: 0.5rem;
+       }
+    }
+
+    /*** short descriptions on company *****/
+
+    .elementor-element .elementor-widget-container .mHead h4{
+        margin-bottom: 0!important;
+    }
+    .elementor-element .elementor-widget-container .mHead h4,
+    .elementor-element .elementor-widget-container .mHead h2,
+    .elementor-element .elementor-widget-container .details-wrapper h2{
+    font-weight: 600;
+    }
+
+    .elementor-element .elementor-widget-container .details-wrapper ul{
+        margin: 0!important;
+        padding: 0!important;
+    }
+    .elementor-element .elementor-widget-container .details-wrapper ul small{
+        font-size: 1rem;
+    }
+
+
+    /*** Short Form ***/
+    .elementor-element .elementor-widget-container aside.form{
+        border: 2px solid #000;
+        margin-bottom: 2rem;
+    }
+
+
+    /** Mega Main Menu ***/
+
+    li{
+        list-style-type: none!important;
+    }
+    #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:hover > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:focus > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-toggle-on > ul.mega-sub-menu {        visibility: visible;
+        width: 1250px!important;
+        margin-left: -50rem!important;
+        margin-top: 2.95rem!important;
+    }
+    
+    .mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-columns-2-of-8 mega-menu-item-custom_html-3 .textwidget custom-html-widget{
+        padding: 2rem 0;
+    }
+    #mega-menu-item-custom_html-2,
+    .mega-menu-item #mega-menu-item-custom_html-6{
+        background-color: #cce8ff!important;
+    }
+    
+    @media only screen and (max-width:1310px){
+        #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-megamenu > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-flyout ul.mega-sub-menu{
+            margin-left: -45rem!important;
+        }
+        #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:hover > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:focus > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-toggle-on > ul.mega-sub-menu {
+         width: 400px!important;
+        }
+    
+        #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item{        width: 100%;
+        width: 100%!important;
+        }
+    }
+    
+    @media only screen and (max-width: 1245px) and (min-width: 1140px){
+        #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-megamenu > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-flyout ul.mega-sub-menu{
+            margin-left: -37rem!important;
+        }
+    }
+    
+    @media only screen and (max-width: 1140px){
+        #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-megamenu > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-flyout ul.mega-sub-menu{
+            margin-left: -25rem!important;
+        }
+    }
+
+    .elementor-element .elementor-widget-container  .icons-wrapper h4{
+        margin: 0!important;
+        padding: 0!important;
+    }
+    
+    .elementor-element .elementor-widget-container aside.bA{
+        border-bottom: 3px solid #000;
+    }
+    
+    .elementor-element .elementor-widget-container .form-wrapper{
+      font-family: 'Raleway', sans-serif!important;
+    }
+    
+    .elementor-element .elementor-widget-container .form-wrapper input{
+        width: 100%;
+    }
+    
+    .elementor-element .elementor-widget-container .richFeatures h3{
+        text-align: center!important;
+        margin: 0.65rem 0;
+        padding: 0.65rem 0;
+        font-weight: 600;
+    }
+    
+    
+    .elementor-column-gap-default>.elementor-column>.elementor-element-populated .richFeatures{
+        padding: 2.5rem;
+        margin: 1rem;
+        background-color: #f9f9f9;
+        letter-spacing: 0!important;
+    }
+    
+    .elementor-element .elementor-widget-container button.btn-more{
+        background-color: #efefef;
+        width: 100%!important;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -o-webkit-transition: all 0.5s;
+        outline: none;
+    }
+    
+    .elementor-element .elementor-widget-container button.btn-more:hover{
+        background-color: #ffff;
+    }
+    
+    .elementor-element .elementor-widget-container button.btn-more a{
+        color: #000!important;
+        text-decoration: none!important;
+    }
+    
+    .elementor-element .elementor-widget-container button.btn-more .fa-angle-right{
+        color: #000!important;
+        font-size: 1.25rem!important;
+    }
+    
+ 
+
+    /*** News Page******/
+    .elementor-element .elementor-widget-container .news h2{
+        color:#fff;
+        font-weight: bold;
+        padding: 0.5rem 0;
+        margin: 0.5rem 0;
+    }
+
+
+    .elementor-element .elementor-widget-container .news-wrapper h3 a{
+        font-weight: bold;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .elementor-element .elementor-widget-container .news-wrapper{
+        margin: 3rem 0;
+    }
+    .elementor-element .elementor-widget-container .news-wrapper .news-wrap{
+        padding: 1.5rem 0.85rem;
+        background-color: #efefef;
+    }
+    .elementor-element .elementor-widget-container .news-wrapper .news-wrap article p{
+        font-size: 1.1rem;
+    }
+    .elementor-element .elementor-widget-container .news-wrapper .news-wrap time{ 
+        margin-bottom: 2rem!important;
+    }
+
+
+
+    /**** Teams and About Us *****/
+    .elementor-element .elementor-widget-container .team-details aside.tBor{
+        border-bottom: 3px solid #008ccb;
+    }
+    .elementor-element .elementor-widget-container .team-details{
+        text-align: center;
+    }
+
+    .elementor-element .elementor-widget-container .team-details h1,
+    .elementor-element .elementor-widget-container .teH h2{
+        font-weight: bold;
+    }
+
+    .elementor-element .elementor-widget-container .teH h2,
+    .elementor-element .elementor-widget-container .team-details{
+        margin-top: 3rem;
+    }
+    .elementor-element .elementor-widget-container .team-details{
+        margin-bottom: 3rem;
+    }
+    
+    .elementor-element .elementor-widget-container .team-details h2{
+        margin-bottom: 0!important;
+        margin-top: 1.5rem;
+        font-weight: 600;
+    }
+    .elementor-element .elementor-widget-container .team-details p{
+        font-size: 1.2rem;
+    }
+
+    .elementor-element .elementor-widget-container .team-details figure img{
+        border-radius: 4px!important;        
+    }
+
+
+    .elementor-element .elementor-widget-container .about h2{
+        font-weight: bold;
+        margin-top: 2.5rem;
+    }
+
+    .elementor-element .elementor-widget-container .about-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 4rem;
+    }
+    .elementor-element .elementor-widget-container .about-details{
+         width: 60%;
+    }
+    
+   @media only screen and (max-width: 1100px){
+    .elementor-element .elementor-widget-container .about-wrapper{
+         flex-direction: column-reverse;
+        }
+        .elementor-element .elementor-widget-container .about-details{
+            width: 100%!important;
+            padding: 1.5rem;
+        }
+        .elementor-element .elementor-widget-container .img-wrapper{
+            text-align: center!important;
+        }
+        .elementor-element .elementor-widget-container .about-details .img-wrapper{
+            margin:0;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .elementor-element .elementor-widget-container .contact-wrapper button#submit{
+            width: 100%!important;
+        }
+        .elementor-element .elementor-widget-container  .one, .sec{
+            flex-direction: column;
+        }
+        .elementor-element .elementor-widget-container .about-details{
+            padding: 1rem 0.15rem;
+        }
+
+    }
+
+    /*** menu li font-size**/
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link{
+        font-size: 15px!important;
+    }
+
+    @media only screen and (min-width: 990px){
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link{
+        font-size: 16px!important;
+    } }

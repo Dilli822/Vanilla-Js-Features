@@ -1,0 +1,65 @@
+<style>
+        section#block-13{
+           display: none;
+        }
+                @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+                ul.head-nav{
+                   display: flex;
+                   opacity: 0.75;
+              }
+                ul.head-nav li:not(:last-child){
+                   border-right: 1px solid #000;
+                }
+                ul.head-nav span .fa-phone{
+                    font-size: 1.75rem;
+                    opacity: 0.65;
+                }
+            ul.head-nav li .far{
+                   font-size: 1.35rem;
+                  opacity: 0.8;
+            }
+                ul.head-nav li a{
+                font-family: Raleway!important;
+                color: #000;
+                font-size: 1.2rem;
+                }
+        div.mob-d{
+        display: none;
+        }
+        @media only screen and (max-width: 667px){
+                ul.head-nav{
+           display: none;
+        }
+        div.mob-d{
+        display: flex;
+        width: 100%!important;
+        justify-content: flex-end;
+        }
+        div.mob-d a:not(:last-child){
+            border-right: none;
+        }
+        div.mob-d a{
+           color: #000;
+        }
+        }
+                </style>
+        <ul class="head-nav">
+        <li>
+                <a href="tel:8006055597">
+                &nbsp;
+                <span> <i class="fa fa-phone"></i></span>&nbsp;
+                 800.605.5597
+                 &nbsp; </a>
+                </li>
+        <li> <a href="mailto:info@e-destinaccess.com">&nbsp; <span> <i class="far fa-envelope"> </i> </span> &nbsp;<br>
+                info@e-destinaccess.com</a> </li>
+        </ul>
+        <div class="mob-d">
+        <a href="tel:">
+             <i class="fa fa-phone"></i> 800.605.5597 &nbsp;
+        </a>
+        &nbsp;
+        <a href="mailto:info@e-destinaccess.com"><br>
+            <span> <i class="far fa-envelope"></i></span> info@e-destinaccess.com<br>
+        </a>
+        </div>

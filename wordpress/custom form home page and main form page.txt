@@ -1,0 +1,356 @@
+   /*** Home Page Contact Form ****/
+       .elementor-element .elementor-widget-container .form-wrapper input{
+        display: block!important;
+        border-top: none!important;
+        border-right: none!important;
+        border-left: none!important;
+        background-color: transparent;
+        outline: none;
+     }
+
+ 
+    /*** Main Contact Form ****/
+ .elementor-element .elementor-widget-container  .one, .two{
+   display: flex;
+   width: 100%;
+   border-radius: 3px;
+   border: 1px solid #d5d5d5;
+   padding: 1rem;
+   margin-top: 2rem;
+  }
+ 
+  .elementor-element .elementor-widget-container .one .sp:not(:last-child){
+    border-right: 1px solid #d5d5d5;
+ }
+
+ .elementor-element .elementor-widget-container  .two .sp:not(:last-child){
+   border-right: 1px solid #d5d5d5;
+ } 
+ .elementor-element .elementor-widget-container .one .sp span,
+ .elementor-element .elementor-widget-container .two .sp span{
+    font-size: 2.5rem;
+    opacity: 0.65;
+ }
+
+ .elementor-element .elementor-widget-container .one .det h3,
+ .elementor-element .elementor-widget-container .one .det a,
+ .elementor-element .elementor-widget-container .two .det h3,
+ .elementor-element .elementor-widget-container .two .det a{
+    padding: 0;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+    opacity: 0.65;
+ }
+
+
+ .elementor-element .elementor-widget-container .one .det h3
+ .elementor-element .elementor-widget-container .two .det h3{
+    font-weight: bold;  
+ }
+
+
+
+ .elementor-element .elementor-widget-container,
+ .elementor-element .elementor-widget-container{
+     color: #000;
+ } 
+
+<style>
+
+.one, .two{
+   display: flex;
+   width: 100%;
+   border-radius: 3px;
+   border: 1px solid #d5d5d5;
+   padding: 1rem;
+   margin-top: 2rem;
+}
+
+.one .sp:not(:last-child),
+.two .sp:not(:last-child){
+   border-right: 1px solid #d5d5d5;
+}
+
+.one .sp span,
+.two .sp span{
+   font-size: 2.5rem;
+   opacity: 0.65;
+}
+
+.one .det h3,.one .det a,
+.two .det h3,.two .det a{
+     padding: 0;
+     margin: 0;
+     color: #000;
+     text-decoration: none;
+     opacity: 0.65;
+}
+.one .det h3,.two .det h3{
+     font-weight: bold;  ​
+}
+
+</style>
+<div class="one">
+
+<div class="sp">
+<span> <i class="fa fa-phone"> 
+&nbsp;
+</i>  </span>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div class="det">
+<h3> Give us a call </h3>
+<a href="tel:+18006055597">
++1(800).605.5597
+</a>
+</div>
+
+</div>
+
+
+
+<div class="two">
+
+<div class="sp">
+<span> <i class="far fa-envelope"> </i> 
+&nbsp;
+​</span>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp
+
+<div class="det">
+<h3> Send an email </h3>
+<a href="mailto:info@e-destinaccesss.com">
+info@e-destinaccess.com
+</a>
+</div>
+
+</div>
+
+
+
+-----------Teams---
+
+<style>
+.modal-content{
+   
+.overlay{
+  position: absolute;
+   z-index: 1;
+   background-color: black;
+   margin-top: -32rem;
+   width: 100%;
+   min-height: 300px;
+   opacity: 0;
+   transition: all 0.5s;
+}
+.overlay:hover{
+   opacity: 0.65;
+}
+.overlay button:hover{
+   opacity: 1;
+}
+.overlay button{
+   margin-top: 8rem;
+   margin-left: 7rem;
+   background-color: black;
+}
+
+
+</style> 
+
+
+<div class="team-details">
+
+<figure>
+<img src="https://e-destinaccess.com/images/team/1.jpg" loading="lazy" alt="Wayne"/>
+</figure>
+
+
+
+<h2>Wayne Beaubien</h2>
+<p> Co-Founder and CEO  </p>
+
+<aside class="tBor">
+</aside>
+
+</div>
+
+<div class="overlay">
+<button id="myModal">
+VIEW DETAILS
+</button>
+
+</div>
+
+
+---js only
+<script>
+
+var modal = document.getElementById("myModal");
+
+
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script> 
+
+
+
+
+------------------------------------------------
+<style>
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+  }
+  
+    .modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+  }
+  
+
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  @-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+
+</style>
+<h2>Bottom Modal</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+<script>
+
+var modal = document.getElementById("myModal");
+
+
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script> 
+--------------------------
