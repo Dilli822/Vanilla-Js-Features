@@ -1,0 +1,68 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Hover Img with Simple CSS effect </title>
+
+     <style>
+         .container{
+  height: 450px;
+  width: 450px;
+  border-bottom: 1px solid red;
+}
+
+.container:hover{
+  border-bottom: 1px solid blue;
+}
+  .parent{
+    height: 500px;
+    width: 500px;
+    border: 1px solid red;
+    position: relative;
+
+}
+.siblings{
+  position: absolute;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left: 0;
+  opacity: 0;
+}
+
+.siblings:hover{
+  opacity: 1;
+}
+
+.parent .siblings button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+     </style>
+ </head>
+ <body>
+    <div class="container">
+        Hover Me
+      </div>
+      
+      <br>
+      <br>
+      
+      <div class="parent">
+        This is a parent.
+        <div class="siblings">
+          <button>
+            Siblings
+          </button>
+        </div>
+      </div>
+ </body>
+ </html>
