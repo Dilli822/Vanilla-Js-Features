@@ -1,38 +1,128 @@
 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <style>
+         @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+         
+         *{
+             padding: 0;
+             margin: 0;
+             box-sizing: border-box;
+             font-family: Raleway;
+         }
 
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+         .team{
+            position: fixed;
+            z-index: 999;
+            top: 5%;
+            border: 1px solid #d5d5d5;
+            padding: 2rem;
+         }
+         .wrapper{
+             display: flex;
+             width: 100%;
+             border: 1px solid #d5d5d5;
+             padding: 3rem;
+         }
 
+         .img-wrapper figure{
+             max-width: 100%;
+         }
+         .content-wrapper{
+            width: 70%;
+         }
+         .content-wrapper h2{
+             font-weight: bold;
+         }
+         .content-wrapper h2,.content-wrapper p{
+            padding: 0 2rem;
+         }
+         .content-wrapper article p{
+         line-height: 35px;
+         font-size: 1.2rem;
+         padding: 2rem;
+         }
+         .content-wrapper span a{
+            color: #000;
+            padding: 2rem;
+            font-size: 2rem;
+         }
+         .content-wrapper span a i{
+             margin-top: 1rem;
+         }
 
-      </head>
-      <body>
+         @media only screen and (max-width: 990px) {
+            .wrapper{
+                display: block;
+            }
+         }
 
-         <div id="hide" style="display: none;">
-             <img src="https://unsplash.it/405" alt="">
-         </div>
+         .content-wrapper aside.tAs{
+            padding: 0 2rem;
+            margin:0 2rem;
+            border-bottom: 1px solid#d5d5d5d5;
+         }
 
-         <button onclick="demo()">
-        click
-        </button>
-         <script>
-             function demo(){
-                 var x = document.getElementById("hide");
-                 if (x.style.display == "none"){
-                     x.style.display = "block";
-                 }
-                 else{
-                     x.style.display = "none";
-                 }
+         @media only screen and (max-width: 1300px) and (min-width: 767px){
+             .img-wrapper figure img{
+                width: 100%;
+                height: 85%;
+                max-width: 100%;
              }
-         </script>
-          
-      </body>
-  </html>
+            .content-wrapper article p{
+                line-height: 30px;
+                font-size: 1.15rem;
+            }
+            .content-wrapper{
+                width: 100%;
+            }
+         }
+     </style>
+ </head>
+ <body>
 
+   <div class="team">
+    <div class="wrapper">
+        <div class="img-wrapper">
+            <figure>
+                <img style="width: 100%;"src="https://e-destinaccess.com/images/team/team-modal-img1.jpg" alt="">
+            </figure>
+        </div>
+
+        <div class="content-wrapper">
+            <h2>HEADINGS 2</h2>
+            <p class="s">Small detail</p>
+
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aliquid voluptatem molestiae animi doloremque harum molestias, sit sunt expedita ea obcaecati corporis officia laboriosam nisi ipsa sint quaerat et, labore quos cum exercitationem corrupti tempora? Quod, illo earum cum perferendis molestiae pariatur iste debitis nostrum provident deleniti laudantium a incidunt ea quam eveniet hic facere, dolores ut autem tempora aperiam. Molestias, eaque delectus doloribus asperiores officiis at porro, sunt fuga minus vel debitis ullam repudiandae. Ex hic laudantium dolore neque!
+                    <br> <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ullam provident saepe dolor similique ratione, magni repellendus! Facere nostrum modi ad voluptate ipsum autem vero?
+                </p>
+
+                <aside class="tAs">
+                </aside>
+                <span>
+                    <a href="">
+                    <i class="fa fa-linkedin-square"></i> </a>
+                </span>
+            </article>
+
+            
+        </div>
    
+    </div>
+
+    
+</div>
+
+
+ </body>
+ </html>

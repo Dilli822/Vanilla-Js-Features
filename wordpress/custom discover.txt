@@ -1,0 +1,23 @@
+<div class="custom-con">
+<figure>
+<img src="https://e-destinaccess.com/new-images/video-cover05.jpg" style="
+    width: 100%;
+">
+</figure>
+<div class="overlay">
+<button id="myBtn">
+DISCOVER
+</button>
+</div>
+</div>
+
+
+<div class="videoH">
+<h4> Business Analytics
+</h4>
+
+<p> Destin BizzSmarts </p>
+
+<aside class="boA">
+</aside>
+</div>

@@ -76,4 +76,110 @@
   @keyframes fadeIn {
     from {opacity: 0} 
     to {opacity: 1}
-  }}
+  }
+  
+     
+.overlay{
+  position: absolute;
+   z-index: 1;
+   background-color: black;
+   margin-top: -32rem;
+   width: 100%;
+   min-height: 300px;
+   opacity: 0;
+   transition: all 0.5s;
+}
+.overlay:hover{
+   opacity: 0.65;
+}
+.overlay button:hover{
+   opacity: 1;
+}
+.overlay button{
+   margin-top: 8rem;
+   margin-left: 7rem;
+   background-color: black;
+}
+
+
+  
+  
+  
+  }
+
+
+  .elementor-element .elementor-widget-container {
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Raleway;
+  }
+
+  .team{
+     position: fixed;
+     z-index: 999;
+     top: 5%;
+     border: 1px solid #d5d5d5;
+     padding: 2rem;
+  }
+  .wrapper{
+      display: flex;
+      width: 100%;
+      border: 1px solid #d5d5d5;
+      padding: 3rem;
+  }
+
+  .img-wrapper figure{
+      max-width: 100%;
+  }
+  .content-wrapper{
+     width: 70%;
+  }
+  .content-wrapper h2{
+      font-weight: bold;
+  }
+  .content-wrapper h2,.content-wrapper p{
+     padding: 0 2rem;
+  }
+  .content-wrapper article p{
+  line-height: 35px;
+  font-size: 1.2rem;
+  padding: 2rem;
+  }
+  .content-wrapper span a{
+     color: #000;
+     padding: 2rem;
+     font-size: 2rem;
+  }
+  .content-wrapper span a i{
+      margin-top: 1rem;
+  }
+
+  @media only screen and (max-width: 990px) {
+     .wrapper{
+         display: block;
+     }
+  }
+
+  .content-wrapper aside.tAs{
+     padding: 0 2rem;
+     margin:0 2rem;
+     border-bottom: 1px solid#d5d5d5d5;
+  }
+
+  @media only screen and (max-width: 1300px) and (min-width: 767px){
+      .img-wrapper figure img{
+         width: 100%;
+         height: 85%;
+         max-width: 100%;
+      }
+     .content-wrapper article p{
+         line-height: 30px;
+         font-size: 1.15rem;
+     }
+     .content-wrapper{
+         width: 100%;
+     }
+  }
+  }

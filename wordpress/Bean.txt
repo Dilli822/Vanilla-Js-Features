@@ -1,0 +1,41 @@
+  <div id="myModal2" class="team2">
+    <div class="wrapper2">
+        <div class="img-wrapper2">
+            <figure>
+             <img src="https://e-destinaccess.com/images/team/2.jpg" alt="Fred Bean" loading="lazy"/>
+            </figure>
+        </div>
+
+        <div class="content-wrapper2">
+     
+
+            <h2> Fred Bean <span class="close2"><img src="https://img.icons8.com/material-outlined/28/000000/cancel--v2.png"/></span></h2>
+            <p class="s">
+Chairman, Executive Chairman & CEO of REBEL Travel Corporation
+</p>
+
+            <article>
+                <p>
+                    Fred Bean is Chairman, Executive REBEL Travel Corporation, a global integrated marketing and technology company specializing in hospitality, tourism, and entertainment.
+                    <br> <br>
+Fred has more than 25 years of experience in hospitality technology and travel distribution services and has been involved in many of the landscape defining business launches that laid the foundation for the current online travel ecosystem.
+
+                </p>
+
+                <aside class="tAs">
+                </aside>
+                <span>
+                    <a href="">
+                    <i class="fa fa-linkedin-square"></i> </a>
+                </span>
+            </article>
+
+            
+        </div>
+   
+    </div>
+
+    
+</div>
+ 
+

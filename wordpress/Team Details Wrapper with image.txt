@@ -1,0 +1,21 @@
+<!--<div class="team-details">
+
+<figure>
+<img src="https://e-destinaccess.com/images/team/1.jpg" loading="lazy" alt="Wayne"/>
+</figure>
+
+
+
+<h2>Wayne Beaubien</h2>
+<p> Co-Founder and CEO  </p>
+
+<aside class="tBor">
+</aside>
+
+</div>
+
+<div class="overlay">
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">
+VIEW DETAILS </button>
+</div> --->

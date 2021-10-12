@@ -1,0 +1,51 @@
+ <div id="myModal4" class="team4">
+<div class="in-modal">
+    <span class="close4">
+<img src="https://img.icons8.com/material-outlined/30/000000/cancel--v2.png"/>
+
+</span>
+    <div class="wrapper4">
+        <div class="img-wrapper4">
+            <figure>
+             <img src="https://e-destinaccess.com/images/team/4.jpg" alt="Lefty" loading="lazy"/> 
+            </figure>
+        </div>
+
+        <div class="content-wrapper4">
+
+
+            <h2> Lefty Novotny </h2>
+            <p class="s">
+Chief Strategic Advisor and President of Master Connection Associates
+</p>
+  
+
+            <article>
+                <p>
+                   Lefty is an investor and active advisor to the company focusing on strategy, business development, and strategic alliance partnerships for the company’s software automation for the hospitality industry.
+
+
+                    <br> <br>
+    He is President of Master Connection Associates, an internationally recognized leader in customer service, sales and leadership training with an emphasis on the hospitality industry.
+
+
+                </p>
+
+                <aside class="tAs">
+                </aside>
+                <span>
+                    <a href="">
+                    <i class="fa fa-linkedin-square"></i> </a>
+                </span>
+            </article>
+
+            
+        </div>
+   
+    </div>
+</div>
+
+    
+</div>
+ 
+

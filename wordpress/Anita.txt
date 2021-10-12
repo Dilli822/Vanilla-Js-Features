@@ -1,0 +1,47 @@
+   <div id="myModal3" class="team3">
+    <div class="wrapper3">
+        <div class="img-wrapper3">
+            <figure>
+               <img src="https://e-destinaccess.com/images/team/3.jpg" alt="Anita" loading="lazy"/>
+            </figure>
+        </div>
+
+        <div class="content-wrapper3">
+    
+
+            <h2> Anita Beaubien
+   <span class="close3">
+<img src="https://img.icons8.com/material-outlined/24/000000/cancel--v2.png"/>
+</span> </h2>
+            <p class="s">Co-Founder & COO
+
+</p>
+
+            <article>
+                <p>
+                    Anita is responsible for the creation and implementation of the company’s operational processes, database builds, training and customer service. Anita’s business experience includes 20 years as an attorney in California as well as managerial experience as an Area Manager with Robert Half International.
+
+
+                    <br> <br>
+              Anita also has eight years of experience automating and running the operations of concierge and DMC departments. Anita is a licensed CA attorney.
+
+
+                </p>
+
+                <aside class="tAs">
+                </aside>
+                <span>
+                    <a href="">
+                    <i class="fa fa-linkedin-square"></i> </a>
+                </span>
+            </article>
+
+            
+        </div>
+   
+    </div>
+
+    
+</div>
+ 
+

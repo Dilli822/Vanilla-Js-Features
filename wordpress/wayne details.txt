@@ -1,0 +1,43 @@
+  <div id="myModal" class="team">
+    <div class="wrapper">
+        <div class="img-wrapper">
+            <figure>
+                <img src="https://e-destinaccess.com/images/team/team-modal-img1.jpg" alt="Wayne">
+            </figure>
+        </div>
+
+        <div class="content-wrapper">
+      <span class="close">
+<img src="https://img.icons8.com/material-outlined/28/000000/cancel--v2.png"/>
+<a href="https://icons8.com/icon/BiGkGV3UA9KH/cancel">Cancel icon by Icons8</a>
+</span>
+
+            <h2>Wayne Beaubien</h2>
+            <p class="s">Co-Founder, CEO & Software Architect</p>
+
+            <article>
+                <p>
+                 Wayne has 20 years of experience in hospitality and related technology development. Prior to founding the company, Wayne was District President at Robert Half International located on Sand Hill Road in Silicon Valley where he was instrumental in driving adoption of advanced technology.
+
+<br> <br>
+Earlier in his career he spent 12 years operating a successful destination management company. This combination led to his vision of applying advanced Internet technology to the needs of hotels seeking revenue from group travel and concierge services. Wayne has a BA in Business from Rutgers University.
+                 
+</p>
+
+<aside class="tAs">
+                </aside>
+                <span>
+                    <a href="">
+                    <i class="fa fa-linkedin-square"></i> </a>
+                </span>
+            </article>
+
+            
+        </div>
+   
+    </div>
+
+    
+</div>
+ 
+
