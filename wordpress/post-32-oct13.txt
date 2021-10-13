@@ -1,0 +1,1186 @@
+.elementor-kit-32{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,700;1,900&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+ a{
+     text-decoration: none;
+ }
+.elementor-element .elementor-widget-container .richFeatures figure,
+.elementor-element .elementor-widget-container .richFeatures h3{
+    text-align: center!important;
+}
+
+    .elementor-element .elementor-widget-container .richFeatures h3{
+    margin: 0.65rem 0;
+    padding: 0.65rem 0;
+    font-weight: 600;
+}
+
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated .richFeatures{
+    padding: 2.5rem;
+    margin: 0rem!important; 
+    background-color: #f9f9f9;
+    letter-spacing: 0!important;
+}
+
+.elementor-element .elementor-widget-container .midNav h6{
+    text-align: center;  
+}
+
+.elementor-element .elementor-widget-container .midNav h6 a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+
+/********* Text on Main ********/
+.elementor-element .elementor-widget-container .head h2,
+  .elementor-element .elementor-widget-container .head h1,
+  .elementor-element .elementor-widget-container .head h4{
+  padding: 0!important;
+  margin: 0!important;
+  color: #fff!important;
+
+}
+.elementor-element .elementor-widget-container .mHead h4{
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 320px){
+.elementor-element .elementor-widget-container .head{
+    color: red!important;
+    text-align: center!important;
+    margin-top: -34%!important;
+  }
+  .elementor-element .elementor-widget-container .head h2,
+  .elementor-element .elementor-widget-container .head h1{
+      font-weight: 500!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h2{
+      font-size: 1rem!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h1{
+      font-size: 1.1rem!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h4{
+      font-size: 1rem!important;
+  }
+
+  .elementor-element .elementor-widget-container .head h2,
+  .elementor-element .elementor-widget-container .head h1,
+  .elementor-element .elementor-widget-container .head h4{
+  padding: 0!important;
+  margin: 0!important;
+  color: #fff!important;
+
+}
+}
+
+
+@media only screen and (max-width: 567px) and (min-width: 320px){
+    .elementor-element .elementor-widget-container .head{
+        color: red!important;
+        text-align: center!important;
+        margin-top: -34%!important;
+      }
+
+      .elementor-element .elementor-widget-container .head h2,
+      .elementor-element .elementor-widget-container .head h1{
+          font-weight: 700!important;
+      }
+    
+      .elementor-element .elementor-widget-container .head h2{
+          font-size: 1.35rem!important;
+      }
+    
+      .elementor-element .elementor-widget-container .head h1{
+          font-size: 1.5rem!important;
+      }
+    
+      .elementor-element .elementor-widget-container .head h4{
+          font-size: 1rem!important;
+    }
+}
+
+@media only screen and (max-width: 667px) and (min-width: 567px){
+    .elementor-element .elementor-widget-container .head{
+        text-align: center!important;
+        margin-top: -30%!important;
+      }
+
+    .elementor-element .elementor-widget-container .head h2,
+    .elementor-element .elementor-widget-container .head h1{
+        font-weight: 800!important;
+    }
+  
+    .elementor-element .elementor-widget-container .head h2{
+        font-size: 1.5rem!important;
+    }
+  
+    .elementor-element .elementor-widget-container .head h1{
+        font-size: 1.85rem!important;
+    }
+  
+    .elementor-element .elementor-widget-container .head h4{
+        font-size: 1.25rem!important;
+  }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 667px){
+    .elementor-element .elementor-widget-container .head{
+    text-align: center!important;
+    margin-top: -30%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 1.95rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 2.25rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 1.4rem!important;
+}
+} 
+
+
+@media only screen and (max-width: 990px) and (min-width: 767px){
+    .elementor-element .elementor-widget-container .head{
+    text-align: center!important;
+    margin-top: -28%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 1.95rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 2.25rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 1.4rem!important;
+}
+} 
+
+
+@media only screen and (max-width: 1200px) and (min-width: 990px){
+    .elementor-element .elementor-widget-container .head{
+    text-align: center!important;
+    margin-top: -28%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 600!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 2rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 2.25rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 1.4rem!important;
+}
+} 
+
+@media only screen and (max-width: 1440px) and (min-width: 1200px){
+    .elementor-element .elementor-widget-container .head{
+    text-align: center!important;
+    margin-top: -32%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 700!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 2.5rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 3rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 2rem!important;
+}
+} 
+
+@media only screen and (min-width: 1440px) and (max-width: 1550px){
+    .elementor-element .elementor-widget-container .head{
+    text-align: center!important;
+    margin-top: -35%!important;
+  }
+
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 700!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size:  2.5rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 3rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 2rem!important;
+}
+} 
+
+@media only screen and (min-width: 1550px) and (max-width: 1700px){
+    .elementor-element .elementor-widget-container .head{
+    text-align: center!important;
+    margin-top: -37%!important;
+  }
+}
+
+@media only screen and (min-width: 17000px) and (max-width: 1920px){
+    .elementor-element .elementor-widget-container .head{
+    text-align: center!important;
+    margin-top: -47%!important;
+  }
+}
+
+@media only screen and (min-width: 1550px){
+    .elementor-element .elementor-widget-container .head{
+    text-align: center!important;
+    margin-top: -46%!important;
+  }
+.elementor-element .elementor-widget-container .head h2,
+.elementor-element .elementor-widget-container .head h1{
+    font-weight: 700!important;
+}
+
+.elementor-element .elementor-widget-container .head h2{
+    font-size: 2.85rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h1{
+    font-size: 3.5rem!important;
+}
+
+.elementor-element .elementor-widget-container .head h4{
+    font-size: 2.35rem!important;
+}
+} 
+
+/*** Team Text Banner ***/
+
+
+.elementor-element .elementor-widget-container .banner-text h1,.banner-text h4{
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.elementor-element .elementor-widget-container  .banner-text{
+      margin-top: -23rem;
+}
+
+
+
+
+/*** Video Part ****/
+.elementor-element .elementor-widget-container .videoH h4,
+.elementor-element .elementor-widget-container .videoH2 h4{
+    font-weight: 600;
+    margin-bottom: 0!important;
+    margin-top: 1rem!important;
+}
+
+.elementor-element .elementor-widget-container .videoH{
+    border-bottom: 3px solid #008ccb;
+}
+
+.elementor-element .elementor-widget-container .videoH:hover{
+  border-bottom: 3px solid #000;
+}
+
+
+.elementor-element .elementor-widget-container .bgImg{
+    background-image: url("https://e-destinaccess.com/new-images/stock01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding: 5rem;
+    
+    }
+    .elementor-element .elementor-widget-container .fBox nav{
+    border: px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    }
+   
+    .elementor-element .elementor-widget-container .fBox nav li span{
+    border-right: 1px solid #fff;
+    }
+   
+    @media only screen and (max-width: 667px){
+       .elementor-element .elementor-widget-container .fBox nav{
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+       }
+   
+       .elementor-element .elementor-widget-container .fBox nav li span{
+           border-right: transparent;
+           font-size: 2.5rem;
+       }
+       .elementor-element .elementor-widget-container .fBox nav li {
+           font-size: 1.75rem;
+       }
+    }
+   
+    @media only screen and (min-width: 667px){
+       .elementor-element .elementor-widget-container .fBox nav li span{
+           font-size: 4.5rem;
+       }
+       .elementor-element .elementor-widget-container .fBox nav li {
+           font-size: 1.75rem;
+           padding: 0 0.5rem;
+       }
+       .elementor-element .elementor-widget-container .fBox nav li span i{
+           margin-right: 0.5rem;
+       }
+    }
+
+    /*** short descriptions on company *****/
+
+    .elementor-element .elementor-widget-container .mHead h4{
+        margin-bottom: 0!important;
+    }
+    .elementor-element .elementor-widget-container .mHead h4,
+    .elementor-element .elementor-widget-container .mHead h2,
+    .elementor-element .elementor-widget-container .details-wrapper h2{
+    font-weight: 600;
+    }
+
+    .elementor-element .elementor-widget-container .details-wrapper article{
+      font-size: 1.15rem;
+    }
+    .elementor-element .elementor-widget-container .details-wrapper ul{
+        margin: 0!important;
+        padding: 0!important;
+    }
+    .elementor-element .elementor-widget-container .details-wrapper ul small{
+        font-size: 1rem;
+    }
+
+
+    /*** Short Form ***/
+    .elementor-element .elementor-widget-container aside.form{
+        border: 2px solid #000;
+        margin: 2rem 0;
+    }
+
+
+    /** Mega Main Menu ***/
+
+    li{
+        list-style-type: none!important;
+    }
+    #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:hover > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:focus > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-toggle-on > ul.mega-sub-menu {        visibility: visible;
+        width: 1250px!important;
+        margin-left: -50rem!important;
+        margin-top: 2.95rem!important;
+    }
+    
+    .mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-columns-2-of-8 mega-menu-item-custom_html-3 .textwidget custom-html-widget{
+        padding: 2rem 0;
+    }
+    #mega-menu-item-custom_html-2,
+    .mega-menu-item #mega-menu-item-custom_html-6{
+        background-color: #cce8ff!important;
+    }
+    
+    @media only screen and (max-width:1310px){
+        #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-megamenu > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-flyout ul.mega-sub-menu{
+            margin-left: -45rem!important;
+        }
+        #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:hover > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary.mega-no-js li.mega-menu-item:focus > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-toggle-on > ul.mega-sub-menu {
+         width: 400px!important;
+        }
+    
+        #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item{        width: 100%;
+        width: 100%!important;
+        }
+    }
+    
+    @media only screen and (max-width: 1245px) and (min-width: 1140px){
+        #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-megamenu > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-flyout ul.mega-sub-menu{
+            margin-left: -37rem!important;
+        }
+    }
+    
+    @media only screen and (max-width: 1140px){
+        #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-megamenu > ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary[data-effect="fade_up"] li.mega-menu-item.mega-menu-flyout ul.mega-sub-menu{
+            margin-left: -25rem!important;
+        }
+    }
+
+    .elementor-element .elementor-widget-container  .icons-wrapper h4{
+        margin: 0!important;
+        padding: 0!important;
+    }
+    
+    .elementor-element .elementor-widget-container aside.bA{
+        border-bottom: 3px solid #000;
+    }
+    
+    .elementor-element .elementor-widget-container .form-wrapper{
+      font-family: 'Raleway', sans-serif!important;
+    }
+    
+    .elementor-element .elementor-widget-container .form-wrapper input{
+        width: 100%;
+    }
+    
+    .elementor-element .elementor-widget-container .richFeatures h3{
+        text-align: center!important;
+        margin: 0.65rem 0;
+        padding: 0.65rem 0;
+        font-weight: 600;
+    }
+    
+    
+    .elementor-column-gap-default>.elementor-column>.elementor-element-populated .richFeatures{
+        padding: 2.5rem;
+        margin: 1rem;
+        background-color: #f9f9f9;
+        letter-spacing: 0!important;
+    }
+    .elementor-column-gap-default>.elementor-column>.elementor-element-populated .richFeatures article{
+      font-size: 1.1rem;
+    }
+    
+    .elementor-element .elementor-widget-container button.btn-more{
+        background-color: #efefef;
+        width: 100%!important;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -o-webkit-transition: all 0.5s;
+        outline: none;
+    }
+    
+    .elementor-element .elementor-widget-container button.btn-more:hover{
+        background-color: #ffff;
+    }
+    
+    .elementor-element .elementor-widget-container button.btn-more a{
+        color: #000!important;
+        text-decoration: none!important;
+    }
+    
+    .elementor-element .elementor-widget-container button.btn-more .fa-angle-right{
+        color: #000!important;
+        font-size: 1.25rem!important;
+    }
+    
+ 
+
+    /*** News Page******/
+    .elementor-element .elementor-widget-container .news h2{
+        color:#fff;
+        font-weight: bold;
+        padding: 0.5rem 0;
+        margin: 0.5rem 0;
+    }
+
+
+    .elementor-element .elementor-widget-container .news-wrapper h3 a{
+        font-weight: bold;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .elementor-element .elementor-widget-container .news-wrapper{
+        margin: 3rem 0;
+    }
+    .elementor-element .elementor-widget-container .news-wrapper .news-wrap{
+        padding: 1.5rem 0.85rem;
+        background-color: #efefef;
+    }
+    .elementor-element .elementor-widget-container .news-wrapper .news-wrap article p{
+        font-size: 1.1rem;
+    }
+    .elementor-element .elementor-widget-container .news-wrapper .news-wrap time{ 
+        margin-bottom: 2rem!important;
+    }
+
+
+
+    /**** Teams and About Us *****/
+    .elementor-element .elementor-widget-container .team-details aside.tBor{
+        border-bottom: 3px solid #008ccb;
+    }
+    .elementor-element .elementor-widget-container .team-details{
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .elementor-element .elementor-widget-container .team-details h1,
+    .elementor-element .elementor-widget-container .teH h2{
+        font-weight: bold;
+    }
+
+    .elementor-element .elementor-widget-container .teH h2,
+    .elementor-element .elementor-widget-container .team-details{
+        margin-top: 3rem;
+    }
+    .elementor-element .elementor-widget-container .team-details{
+        margin-bottom: 3rem;
+    }
+    .elementor-element .elementor-widget-container .team-details h1{
+    text-align: left!important;
+    }
+
+    .elementor-element .elementor-widget-container .team-details h2{
+        margin-bottom: 0!important;
+        margin-top: 2.5rem;
+        font-weight: 600;
+    }
+    .elementor-element .elementor-widget-container .team-details p{
+        font-size: 1.2rem;
+    }
+
+    .elementor-element .elementor-widget-container .team-details figure img{
+        border-radius: 4px!important;        
+    }
+
+
+    .elementor-element .elementor-widget-container .about h2{
+        font-weight: bold;
+        margin-top: 2.5rem;
+    }
+
+    .elementor-element .elementor-widget-container .about-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 4rem;
+    }
+    .elementor-element .elementor-widget-container .about-details{
+         width: 60%;
+    }
+    
+   @media only screen and (max-width: 1100px){
+    .elementor-element .elementor-widget-container .about-wrapper{
+         flex-direction: column-reverse;
+        }
+        .elementor-element .elementor-widget-container .about-details{
+            width: 100%!important;
+            padding: 1.5rem;
+        }
+        .elementor-element .elementor-widget-container .img-wrapper{
+            text-align: center!important;
+        }
+        .elementor-element .elementor-widget-container .about-details .img-wrapper{
+            margin:0;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .elementor-element .elementor-widget-container .contact-wrapper button#submit{
+            width: 100%!important;
+        }
+        .elementor-element .elementor-widget-container  .one, .sec{
+            flex-direction: column;
+        }
+        .elementor-element .elementor-widget-container .about-details{
+            padding: 1rem 0.15rem;
+        }
+
+    }
+
+    /*** menu li font-size**/
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link{
+        font-size: 15px!important;
+    }
+
+    @media only screen and (min-width: 990px){
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link{
+        font-size: 16px!important;
+    } }
+
+
+       /*** Home Page Contact Form ****/
+       .elementor-element .elementor-widget-container .form-wrapper input{
+        display: block!important;
+        border-top: none!important;
+        border-right: none!important;
+        border-left: none!important;
+        background-color: transparent;
+        outline: none;
+     }
+     .elementor-element .elementor-widget-container .form-wrapper label{
+       font-size: 1.25rem;
+     }
+
+ 
+  /*** Main Contact Form ****/
+ .elementor-element .elementor-widget-container  .two{
+   display: flex;
+   width: 100%;
+   border-radius: 3px;
+   border: 1px solid #d5d5d5;
+   padding: 1rem;
+   margin-top: 2rem;
+  }
+ 
+ .elementor-element .elementor-widget-container  .two .sp:not(:last-child){
+   border-right: 1px solid #d5d5d5;
+ } 
+
+ .elementor-element .elementor-widget-container .two .sp span{
+    font-size: 2.5rem;
+    opacity: 0.65;
+ }
+
+
+ .elementor-element .elementor-widget-container .two .det h3,
+ .elementor-element .elementor-widget-container .two .det a{
+    padding: 0;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+ }
+
+
+ .elementor-element .elementor-widget-container .two .det h3{
+    font-weight: bold; 
+    opacity: 1!important;
+ }
+
+ @media only screen and (max-width: 867px){
+ .elementor-element .elementor-widget-container  .two{
+     padding: 0.25rem;
+ }}
+
+  /*** Team Modal Box***/
+  .elementor-element .elementor-widget-container .img-wrapper,
+  .elementor-element .elementor-widget-container .img-wrapper figure img,
+  .elementor-element .elementor-widget-container .content-wrapper,
+  .elementor-element .elementor-widget-container .content-wrapper article{
+       width: 100%;
+  }
+
+  .elementor-element .elementor-widget-container .content-wrapper article p{
+      padding: 2rem ;
+      line-height: 35px;
+  }
+
+  .elementor-element .elementor-widget-container .img-wrapper figure img{
+      border-radius: 5px;
+      /* padding: 2rem 0; */
+  }
+
+  @media only screen and (max-width: 767px){
+    .elementor-element .elementor-widget-container .modal-body {
+        flex-wrap: wrap;
+       
+      }
+  }
+
+  @media only screen and (min-width: 1820px){
+    .elementor-element .elementor-widget-container .img-wrapper figure img{
+        width: 100%;
+        padding: 4rem;
+        border-radius: 5px;
+    }
+  }
+
+
+/********** INNER DETAILS TEAM CONTENT***********/
+  /** Wayne Beaubien **/
+  /*** Fred Bean ***/
+  /** Anita Beaubien **/
+  .elementor-element .elementor-widget-container .team *,
+  .elementor-element .elementor-widget-container .team2 *,
+  .elementor-element .elementor-widget-container .team3 *,
+  .elementor-element .elementor-widget-container .team4 *,
+  .elementor-element .elementor-widget-container .team5 * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    
+  }
+  
+  .elementor-element .elementor-widget-container .team,
+  .elementor-element .elementor-widget-container .team2,
+  .elementor-element .elementor-widget-container .team3,
+  .elementor-element .elementor-widget-container .team4,
+  .elementor-element .elementor-widget-container .team5{ 
+    position: fixed;
+    z-index: 999;
+    top: 0!important;
+    border: 1px solid #d5d5d5;
+    font-family: Raleway;
+    display: none;
+    z-index: 999!important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fefefe!important;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    padding: 5rem!important;
+    overflow: auto;
+  }
+
+  .elementor-element .elementor-widget-container .team .container-wrapper,
+  .elementor-element .elementor-widget-container .team2 .container-wrapper2,
+  .elementor-element .elementor-widget-container .team3 .container-wrapper3,
+  .elementor-element .elementor-widget-container .team4 .container-wrapper4,
+  .elementor-element .elementor-widget-container .team5 .container-wrapper5 {
+    border: 1px solid #d5d5d5;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;
+ }
+  
+  .elementor-element .elementor-widget-container .wrapper,
+  .elementor-element .elementor-widget-container .wrapper2 ,
+  .elementor-element .elementor-widget-container .wrapper3 ,
+  .elementor-element .elementor-widget-container .wrapper4 ,
+  .elementor-element .elementor-widget-container .wrapper5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .elementor-element .elementor-widget-container .img-wrapper figure ,
+  .elementor-element .elementor-widget-container .img-wrapper2 figure ,
+  .elementor-element .elementor-widget-container .img-wrapper3 figure ,
+  .elementor-element .elementor-widget-container .img-wrapper4 figure ,
+  .elementor-element .elementor-widget-container .img-wrapper5 figure {
+    max-width: 100%;
+  }
+
+  .elementor-element .elementor-widget-container .img-wrapper figure img,
+  .elementor-element .elementor-widget-container .img-wrapper2 figure img,
+  .elementor-element .elementor-widget-container .img-wrapper3 figure img,
+  .elementor-element .elementor-widget-container .img-wrapper4 figure img,
+  .elementor-element .elementor-widget-container .img-wrapper5 figure img{
+
+    border-radius: 5px!important;
+  }
+
+  .elementor-element .elementor-widget-container .content-wrapper,
+  .elementor-element .elementor-widget-container .content-wrapper2,
+  .elementor-element .elementor-widget-container .content-wrapper3,
+  .elementor-element .elementor-widget-container .content-wrapper4,
+  .elementor-element .elementor-widget-container .content-wrapper5{
+    width: 100%;
+    background-color: #fefefe;
+  } 
+
+
+  /*** cross icon**********/
+  .elementor-element .elementor-widget-container .close ,
+  .elementor-element .elementor-widget-container .close2 ,
+  .elementor-element .elementor-widget-container .close3 ,
+  .elementor-element .elementor-widget-container .close4 ,
+  .elementor-element .elementor-widget-container .close5 {
+    color: rgb(0, 0, 0);
+    float: right;
+    margin-right: 3%!important;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .elementor-element .elementor-widget-container .close:hover,
+  .elementor-element .elementor-widget-container .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .elementor-element .elementor-widget-container .content-wrapper h2 ,
+  .elementor-element .elementor-widget-container .content-wrapper2 h2 ,
+  .elementor-element .elementor-widget-container .content-wrapper3 h2 ,
+  .elementor-element .elementor-widget-container .content-wrapper4 h2 ,
+  .elementor-element .elementor-widget-container .content-wrapper5 h2 {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  .elementor-element .elementor-widget-container .content-wrapper h2,
+  .elementor-element .elementor-widget-container .content-wrapper p,
+  .elementor-element .elementor-widget-container .content-wrapper2 h2,
+  .elementor-element .elementor-widget-container .content-wrapper2 p,
+  .elementor-element .elementor-widget-container .content-wrapper3 h2,
+  .elementor-element .elementor-widget-container .content-wrapper3 p,
+  .elementor-element .elementor-widget-container .content-wrapper4 h2,
+  .elementor-element .elementor-widget-container .content-wrapper4 p ,
+  .elementor-element .elementor-widget-container .content-wrapper5 h2,
+  .elementor-element .elementor-widget-container .content-wrapper5 p{
+    padding: 0 2rem;
+  }
+  
+  .elementor-element .elementor-widget-container .content-wrapper article p,
+  .elementor-element .elementor-widget-container .content-wrapper2 article p,
+  .elementor-element .elementor-widget-container .content-wrapper3 article p,
+  .elementor-element .elementor-widget-container .content-wrapper4 article p,
+  .elementor-element .elementor-widget-container .content-wrapper5 article p {
+    line-height: 35px;
+    font-size: 1.45rem;
+    padding: 2rem;
+  }
+  
+  .elementor-element .elementor-widget-container .content-wrapper span a ,
+  .elementor-element .elementor-widget-container .content-wrapper2 span a ,
+  .elementor-element .elementor-widget-container .content-wrapper3 span a ,
+  .elementor-element .elementor-widget-container .content-wrapper4 span a ,
+  .elementor-element .elementor-widget-container .content-wrapper5 span a {
+    color: #000;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+  
+  .elementor-element .elementor-widget-container .content-wrapper span a i ,
+  .elementor-element .elementor-widget-container .content-wrapper2 span a i ,
+  .elementor-element .elementor-widget-container .content-wrapper3 span a i ,
+  .elementor-element .elementor-widget-container .content-wrapper4 span a i ,
+  .elementor-element .elementor-widget-container .content-wrapper5 span a i {
+    margin-top: 1rem;
+  }
+
+  .elementor-element .elementor-widget-container .content-wrapper aside.tAs ,
+  .elementor-element .elementor-widget-container .content-wrapper2 aside.tAs ,
+  .elementor-element .elementor-widget-container .content-wrapper3 aside.tAs ,
+  .elementor-element .elementor-widget-container .content-wrapper4 aside.tAs ,
+  .elementor-element .elementor-widget-container .content-wrapper5 aside.tAs {
+    padding: 0 2rem;
+    margin: 0 2rem;
+    border-bottom: 1px solid #d5d5d5d5;
+  }
+
+  /*** mobile devices screen inner team details wrapper ***/
+  @media only screen and (min-width: 990px){
+    .elementor-element .elementor-widget-container .content-wrapper,
+    .elementor-element .elementor-widget-container .content-wrapper2,  
+    .elementor-element .elementor-widget-container .content-wrapper3,
+    .elementor-element .elementor-widget-container .content-wrapper4,
+    .elementor-element .elementor-widget-container .content-wrapper5{
+      width: 70%;
+      background-color: #fefefe;
+    } }
+     
+
+  @media only screen and (max-width: 1300px) and (min-width: 767px) {
+    .elementor-element .elementor-widget-container .img-wrapper figure img,
+    .elementor-element .elementor-widget-container .img-wrapper2 figure img ,
+    .elementor-element .elementor-widget-container .img-wrapper3 figure img ,
+    .elementor-element .elementor-widget-container .img-wrapper4 figure img ,
+    .elementor-element .elementor-widget-container .img-wrapper5 figure img {
+      width: 100%;
+      height: 85%;
+      max-width: 100%;
+    }
+    .elementor-element .elementor-widget-container .content-wrapper article p,
+    .elementor-element .elementor-widget-container .content-wrapper2 article p ,
+    .elementor-element .elementor-widget-container .content-wrapper3 article p ,
+    .elementor-element .elementor-widget-container .content-wrapper4 article p ,
+    .elementor-element .elementor-widget-container .content-wrapper5 article p {
+      line-height: 30px;
+      font-size: 1.15rem;
+    }
+    .elementor-element .elementor-widget-container .content-wrapper,
+    .elementor-element .elementor-widget-container .content-wrapper2,
+    .elementor-element .elementor-widget-container .content-wrapper3,
+    .elementor-element .elementor-widget-container .content-wrapper4,
+    .elementor-element .elementor-widget-container .content-wrapper5{
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 667px){
+    .elementor-element .elementor-widget-container .team,
+    .elementor-element .elementor-widget-container .team2,
+    .elementor-element .elementor-widget-container .team3,
+    .elementor-element .elementor-widget-container .team4,
+    .elementor-element .elementor-widget-container .team5{
+      padding: 0.5rem!important;
+    }
+
+    .elementor-element .elementor-widget-container .img-wrapper figure img,
+    .elementor-element .elementor-widget-container .img-wrapper2 figure img,
+    .elementor-element .elementor-widget-container .img-wrapper3 figure img,
+    .elementor-element .elementor-widget-container .img-wrapper4 figure img,
+    .elementor-element .elementor-widget-container .img-wrapper5 figure img{
+      padding: 0!important;
+    }
+  
+    .elementor-element .elementor-widget-container .content-wrapper h2,
+    .elementor-element .elementor-widget-container .content-wrapper p,
+    .elementor-element .elementor-widget-container .content-wrapper2 h2,
+    .elementor-element .elementor-widget-container .content-wrapper2 p ,
+    .elementor-element .elementor-widget-container .content-wrapper3 h2,
+    .elementor-element .elementor-widget-container .content-wrapper3 p,
+    .elementor-element .elementor-widget-container .content-wrapper4 h2,
+    .elementor-element .elementor-widget-container .content-wrapper4 p ,
+    .elementor-element .elementor-widget-container .content-wrapper5 h2,
+    .elementor-element .elementor-widget-container .content-wrapper5 p {
+      padding: 0.5rem!important;
+      font-size: 1.3rem!important;
+    }
+
+    .elementor-element .elementor-widget-container .content-wrapper h2 ,
+    .elementor-element .elementor-widget-container .content-wrapper2 h2 ,
+    .elementor-element .elementor-widget-container .content-wrapper3 h2 ,
+    .elementor-element .elementor-widget-container .content-wrapper4 h2 ,
+    .elementor-element .elementor-widget-container .content-wrapper5 h2 {
+    font-size: 2rem!important;
+    margin-top: 2rem;
+    } 
+  }
+
+  @media only screen and (max-width: 990px){
+    .elementor-element .elementor-widget-container .team,
+    .elementor-element .elementor-widget-container .team2,
+    .elementor-element .elementor-widget-container .team3,
+    .elementor-element .elementor-widget-container .team4,
+    .elementor-element .elementor-widget-container .team5{
+      padding: 1rem!important;
+    }
+
+    .elementor-element .elementor-widget-container .wrapper,
+    .elementor-element .elementor-widget-container .wrapper2 ,
+    .elementor-element .elementor-widget-container .wrapper3 ,
+    .elementor-element .elementor-widget-container .wrapper4 ,
+    .elementor-element .elementor-widget-container .wrapper5 {
+      flex-wrap: wrap;
+    }
+
+    .elementor-element .elementor-widget-container .content-wrapper h2,
+    .elementor-element .elementor-widget-container .content-wrapper2 h2,
+    .elementor-element .elementor-widget-container .content-wrapper3 h2,
+    .elementor-element .elementor-widget-container .content-wrapper4 h2 ,
+    .elementor-element .elementor-widget-container .content-wrapper5 h2 {
+      margin-top: 2rem;
+    }
+
+    .elementor-element .elementor-widget-container .team,
+    .elementor-element .elementor-widget-container .team2 ,
+    .elementor-element .elementor-widget-container .team3 ,
+    .elementor-element .elementor-widget-container .team4 ,
+    .elementor-element .elementor-widget-container .team5 {
+      padding: 2rem;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1650px){
+    .elementor-element .elementor-widget-container .content-wrapper article p ,
+    .elementor-element .elementor-widget-container .content-wrapper2 article p ,
+    .elementor-element .elementor-widget-container .content-wrapper3 article p ,
+    .elementor-element .elementor-widget-container .content-wrapper4 article p ,
+    .elementor-element .elementor-widget-container .content-wrapper5 article p {
+      line-height: 30px;
+      font-size: 1.25rem;
+      padding: 2rem;
+  }
+  .elementor-element .elementor-widget-container .img-wrapper figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper2 figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper3 figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper4 figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper5 figure img {
+    padding: 2rem;
+  }
+  }
+
+ @media only screen and (min-width: 1650px) and (max-width: 1880px){
+  .elementor-element .elementor-widget-container .img-wrapper figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper2 figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper3 figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper4 figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper5 figure img {
+    border-radius: 5px!important;
+    padding: 1rem 5rem!important;
+  }
+  .elementor-element .elementor-widget-container .content-wrapper article p ,
+  .elementor-element .elementor-widget-container .content-wrapper2 article p ,
+  .elementor-element .elementor-widget-container .content-wrapper3 article p ,
+  .elementor-element .elementor-widget-container .content-wrapper4 article p ,
+  .elementor-element .elementor-widget-container .content-wrapper5 article p {
+    line-height: 35px;
+    font-size: 1.45rem;
+    padding: 4rem 2rem;
+  }
+ }
+
+  @media only screen and (min-width: 1880px){
+   .elementor-element .elementor-widget-container .team .container-wrapper,
+   .elementor-element .elementor-widget-container .team .container-wrapper2,
+   .elementor-element .elementor-widget-container .team .container-wrapper3,
+   .elementor-element .elementor-widget-container .team .container-wrapper4,
+   .elementor-element .elementor-widget-container .team .container-wrapper5{
+      margin-top: 1%;
+    }
+  .elementor-element .elementor-widget-container .img-wrapper figure img,
+  .elementor-element .elementor-widget-container .img-wrapper2 figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper3 figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper4 figure img ,
+  .elementor-element .elementor-widget-container .img-wrapper5 figure img {
+    padding: 0.5rem 5rem 4rem 10rem;
+  } }
+
+  @-webkit-keyframes slideIn {
+   from {
+     top: -300px;
+     opacity: 0;
+   }
+   to {
+     top: 0;
+     opacity: 1;
+   }
+ }
+ 
+ @keyframes slideIn {
+   from {
+     top: -300px;
+     opacity: 0;
+   }
+   to {
+     top: 0;
+     opacity: 1;
+   }
+ }
+ 
+ @-webkit-keyframes fadeIn {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+ }
+ 
+ @keyframes fadeIn {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+ } 
+
+
+ /**** BUTTON OVERLAY ***/
+
+.elementor-element .elementor-widget-container .container {
+  position: relative;
+}
+.elementor-element .elementor-widget-container .team-details .image ,
+.elementor-element .elementor-widget-container .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.elementor-element .elementor-widget-container .team-details .overlay2 ,
+.elementor-element .elementor-widget-container .overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #111111;
+}
+
+
+.elementor-element .elementor-widget-container .team-details:hover .overlay2,
+.elementor-element .elementor-widget-container .container:hover .overlay2 {
+  opacity: 1;
+}
+.elementor-element .elementor-widget-container .team-details .text,
+.elementor-element .elementor-widget-container .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.elementor-element .elementor-widget-container button{
+  background-color: transparent!important;
+}
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn,
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn2,
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn3,
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn4,
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn5 {
+  background-color: transparent!important;
+}
+
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn:hover,
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn2:hover,
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn3:hover,
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn4:hover,
+.elementor-element .elementor-widget-container .container:hover .overlay2 button#myBtn5:hover {
+  background-color: transparent!important;
+}
+/*# sourceMappingURL=overaly.css.map */
+.elementor-element .elementor-widget-container .main-container-wrapper{
+  border-bottom: 3px solid #008ccb;
+}
+
+.elementor-element .elementor-widget-container .main-container-wrapper:hover{
+  border-bottom: 3px solid #000;
+}
+
+.elementor-element .elementor-widget-container .main-container-wrapper .videoH,
+.elementor-element .elementor-widget-container .main-container-wrapper .videoH2{
+  margin-top: 2.5rem!important;
+}
+ 
