@@ -1,0 +1,123 @@
+
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&family=Satisfy&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+img{
+  max-width: 100%;
+}
+
+.custom-card{
+  border: 1px solid #d7d4d438;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transform: scale(0.9);
+  transition: 0.5s;
+  opacity: 0.95;
+  font-size: 0;
+  background-color: #d5d5d52e;
+  box-shadow: 5px 8px 5px #7b7877c2;
+}
+
+.overlay-content{
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  translate: transform(-40%,-40%);
+  color: red;
+  opacity: 0;
+}
+
+
+.custom-card figure{
+  width: 100%;
+  height: auto;
+}
+
+.custom-card article{
+  padding: 0.5rem;
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+ 
+}
+
+.custom-card article h2{
+  font-family: 'Pacifico', cursive;
+}
+
+.custom-card:hover{
+  transform: scale(1);
+  opacity: 1;
+   font-size: 1.5rem;
+}
+
+.overlay-content:hover{
+    opacity: 1;
+}
+
+.inner-text{
+  display: none;
+}
+
+@media only screen and (max-width: 667px){
+  .custom-card{
+    width: 100%;
+  }
+}
+
+
+
+</style>
+
+<div class="custom-card-wrapper">
+<div class="custom-card">
+  <figure>
+    <img src="https://lh3.googleusercontent.com/cBrC1yqA3KKM0Gux22xREZFzymR3W7bLkEEoP7F9KO-Ba3MuXNFrd5D3KE4SaYiFFqG4lqLAZyZpFFAg_AhUoHxyIcK_PUWJsIY9A8loaN4Oekc82ponHn6cihZg4MTxu-9Uz0xn9tmjJ2_4TDPukrRG_Sa0TErbjV3wdiRBXx1ageg7i4ZjWsFSmxOX2Nw8Bs_Td99W0ZNGMvhgnzZL1KZ2cguQsDCosh-n-1JWpJSlAFLjyCV0JwTQUJwntjKuvKKY_-VFqRm4HhaRrDpHMJw0WNkymFdn2Vyw6k8X6jDO78Y-ZkmEaPxsWrYd0vSnlCokoueNMR2KjxN7QaMvUTKx6UdGfneJwFb2KDdyYCDKshqAg0vJDmxlTep7xjmEhZhXCIMwANKAJD-3hanZbX9P1Hfa6kKmjUW_U7Vz9gXV2hnUmFottw8wozY0sQhLv5E8iB1-g4e9fOMHEQvKVlsPpG7RqroLlGVsCkgW8jzdt3EY9O5H40-qOhxF5geEKRQF6vDZytw-PbPGFOxhgJAej-3YB-6hyutwofocyUSh0CG0qUhhZEqY5rS-jcv19oqVibKzFT9jblbLTMzbfMw9o7Xp_yVhb8oO4fIyNqc7PJOg3PYM2nKKojQn7gK6X-SX6AcUIVMPePmZWNcp6IiLH-bAovPllLGY_D4VxhNmA0a1brQITaph_R4FY2FZHk0Q62Cb45Vop0QZTy2Ay92U=w1292-h969-no?authuser=0"/>
+  </figure>
+  
+  <div class="overlay-content">
+    
+    <div class="inner-text">
+      View Details
+    </div>
+  </div>
+  
+  <article>
+    <h2> Dilli Hang Rai.</h2>
+    <p> I believe in the power of nature. This trip took me more close to the nature!
+  </article>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="custom-card-wrapper">
+<div class="custom-card">
+  <figure>
+    <img src="https://lh3.googleusercontent.com/pHIxNZ41_rGbuCDgEZc1K87cIL3xvml0FXKrUDofYKlDtq-HmAAKdZb5-n-GWR1hth54xBc_8xibD7VWBGGDwc0mcNgMBFVMPjJgtpu4FUe5IxVob5s8avOREmJIIsyVZrD7S6GroWW01R0j8EU-v-BmTjAps7l994t6LIUBO6mRVgZehsadAPQbFef3SBUomNaUrTdXLzs-CGo26hIu4nKicDTlQGSzC4sf9omJ7SH9pxl6r11SLk8jyFtUjeAZwdb9CPiUhw3IGrXu9M1y8WxHO1WzKXfmz1XDnBoOG6jf-5605WABdkAQdjq-VyYVBYP2FNIS0XS35n28KngyXmtzFQj4c6jEUVuOpVf-fP5FajWnwRdmPysEQKVoNmIrNVEadzuVO2g0K1ZyTgMx9a-Dy3Oo236_miE8UKQJsPizsVqmKXRiO2TGvHlyhnSGZC--0j0drldwAKqOsYrJXUjqezxnvoN32Uf-QR2579imazyQDJJY4FbaHvwKZwanBUpZITCZ2y0kxbZBjxfa3eQVpy035bpTudY_5ae0bLaLlqRryPvWScyL5kq1pAFnUwaMe_O6o8bsr0CKu72R4LRGkRMFxv07wh-y-ekh0hmqFZihRqMuc29tzWuDIdzfo-kp_46MdSFwkndxRqC1JwMFIc0c7Ah-yCHI21IX6oYbYPispmEL58VhcYJUu5f27AU8YfxYzzQsByBcdz5Tf3Ad=s960-no?authuser=0"/>
+  </figure>
+  
+  <div class="overlay-content">
+    
+    <div class="inner-text">
+      View Details
+    </div>
+  </div>
+  
+  <article>
+    <h2> Nischal Rai.</h2>
+    <p> This trip has blessed me with new laughing skills.
+  </article>
+  </div>
+</div>
+
