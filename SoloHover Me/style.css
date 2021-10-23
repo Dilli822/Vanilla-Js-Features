@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&family=Satisfy&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+
+.main-wrapper{
+  display: flex;
+}
+img{
+  max-width: 100%;
+}
+
+.custom-card{
+  border: 1px solid #d7d4d438;
+  /*display: block;
+  margin: 0 auto; */
+  position: relative;
+  transform: scale(0.9);
+  transition: 0.5s;
+  opacity: 0.95;
+  font-size: 0;
+  background-color: #d5d5d52e;
+  box-shadow: 5px 8px 5px #7b7877c2;
+}
+
+.overlay-content{
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  translate: transform(-40%,-40%);
+  color: red;
+  opacity: 0;
+}
+
+
+.custom-card figure{
+  width: 100%;
+  border: 1px solid red;
+}
+
+.custom-card article{
+  padding: 0.5rem;
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+ 
+}
+
+.custom-card article h2{
+  font-family: 'Pacifico', cursive;
+}
+
+.custom-card:hover{
+  transform: scale(1);
+  opacity: 1;
+  font-size: 1.5rem;
+}
+
+.overlay-content:hover{
+    opacity: 1;
+}
+
+.inner-text{
+  display: none;
+}
+
+@media only screen and (max-width: 667px){
+  .main-wrapper{
+    flex-wrap: wrap;
+  }
+  .custom-card{
+    width: 100%;
+  }
+}
+
+
