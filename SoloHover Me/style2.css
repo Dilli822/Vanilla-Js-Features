@@ -1,0 +1,95 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500&family=Raleway:wght@100&family=Source+Sans+Pro:wght@200&display=swap');        *{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+     }
+
+     .box-wrapper{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         margin-bottom: 2rem;
+     }
+
+     img{
+         max-width: 100%;
+     }
+
+     .custom-card-wrapper{
+         max-width: 500px;
+         border: px solid red;
+         text-align: center;
+         font-size: 0;
+         transform: scale(0.9);
+         transition: all 0.65s;
+         background-color: #f1f1f1;
+         box-shadow: 5px 7px 8px #aaaaa9;
+         border-radius: 5px;
+     }
+
+     .custom-card-wrapper:hover{
+         font-size: 1.1rem;
+         transform: scale(1);
+     }
+
+     .custom-card-wrapper figure{
+         width: 100%;
+     }
+
+     .custom-card-wrapper article h1{
+         font-family: 'Pacifico', cursive;
+     }
+     .custom-card-wrapper article p{
+         font-family: 'cursive', Quicksand;
+     }  
+
+     @media only screen and (max-width: 767px){
+         .box-wrapper{
+             flex-wrap: wrap;
+         }
+
+         .custom-card-wrapper article{
+             font-size: initial;
+         }
+     }
+
+     
+    .pulse-container{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .pulse-bubble{
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: #3ff9dc;
+      animation: pulse 0.5s infinite;
+    }
+    .pulse-bubble-1{
+      opacity: .5;
+      animation: pulse .5s ease infinite;
+    }
+    .pulse-bubble-2{
+      animation: pulse .5s ease infinite;
+    }
+    .pulse-bubble-2{
+      animation: pulse .5s ease infinite;
+    }
+    
+    @keyframes pulse {
+      from{
+        opacity: 1;
+        transform: scale(1);
+      }
+      to{
+        opacity: .25;
+        transform: scale(0.75);
+      }
+    }
