@@ -1,0 +1,25 @@
+
+.elementor-element .elementor-widget-container .bgImg {
+    background-image: url("https://e-destinaccess.com/new-images/stock01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 5rem;
+}
+
+.elementor-element .elementor-widget-container .fBox nav {
+    border: px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+@media only screen and (max-width: 667px){
+.elementor-element .elementor-widget-container .fBox nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+}
