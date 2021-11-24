@@ -1,0 +1,85 @@
+<!--------------Copied from https://www.instagram.com/p/CVvVI5lA0v9/ ------>
+
+<div class="box">
+  
+  <div class="front">
+    <img src="http://unsplash.it/1920" alt="image" />
+  </div>
+  
+  <div class="back">
+    <h1> Hero Heading </h1>
+    <p> Hello There! Some Content Here. </p>
+  </div>
+
+  </div>
+
+<style>
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+.box{
+  width: 350px;
+  height: 350px;
+/*   border: 1px solid #fff; */
+  position: relative;
+}
+
+.box .front,
+.box .back{
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  backface-visibility: hidden;
+  cursor: pointer;
+  background-color: #fff;
+
+  box-shadow: 0 5px 30px rgba(163, 61, 21, 0.200 ), 0 -5px 30px rgba(115, 55, 212, 0.200);
+  transition: transform 0.5s;
+}
+
+.box .back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: perspective(800px) rotateX(-180deg);
+  
+}
+
+.box .back p{
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.box .front img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+.box:hover .front{
+    transform: perspective(800px) rotateX(180deg);
+}
+
+.box:hover .back{
+  transform: perspective(800px) rotateX(0);
+}
+  
+  
+</style>
