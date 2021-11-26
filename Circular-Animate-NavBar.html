@@ -1,0 +1,152 @@
+
+<!---- Copied From https://www.instagram.com/p/CNuvNU9gYBq/?utm_source=ig_web_copy_link&fbclid=IwAR2hroMev0FJRfYUoACq35Qd9PylulBoE2NAT4rQGufJFTtfQTU_Qpoplew ----->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div class="navbar-wrapper">
+  <div class="navbar">
+    <!-- fb icon -->
+    <a href="https://www.facebook.com/dilli822/" class="navbar-link">
+      <i class="fab fa-facebook"> </i>
+    </a>
+    <!-- whatsapp icon -->
+    <a href="viber://chat?number=+9779811075414" class="navbar-link">
+      <i class="fab fa-viber"> </i>
+    </a>
+      <!-- phone icon -->
+    <a href="tel:+977-9811075414" class="navbar-link">
+      <i class="fas fa-phone-square"></i>
+    </a>
+    
+      <!-- gmail icon -->
+    <a href="mailto:dillihangrae@gmail.com" class="navbar-link">
+     <i class="fas fa-envelope-open-text"></i>
+    </a>
+    
+      <!-- github icon -->
+    <a href="https://github.com/dilli822" class="navbar-link">
+      <i class="fab fa-github"> </i>
+    </a>
+    
+      <!-- instagram icon -->
+    <a href="instagram.com/dillihangrae/" class="navbar-link">
+      <i class="fab fa-instagram"> </i>
+    </a>
+   
+  </div>
+</div>
+
+
+<div class="navbar-btn">
+  <i class="fas fa-plus"></i>
+    </div>
+</div>
+
+<style>
+  
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-wrapper{
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  width: 35rem;
+  height: 35rem;
+  background-color: #6a7fdb;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transform: scale(0) rotate(-180deg);
+  transition: transform 0.5s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.change .navbar{
+  transform: scale(1) rotate(0);
+}
+
+.navbar-link{
+  position: absolute;
+}
+
+.navbar-link i{
+  font-size: 3rem;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover i{
+  color: #222;
+}
+
+.navbar-link:nth-child(1){
+  top: 1rem;
+}
+
+.navbar-link:nth-child(2){
+  top: 10rem;
+  right: 2rem;
+}
+
+.navbar-link:nth-child(3){
+  bottom: 10rem;
+  right: 2rem;
+}
+
+.navbar-link:nth-child(4){
+  bottom: 2rem;
+}
+
+.navbar-link:nth-child(5){
+  bottom: 10rem;
+  left: 2rem;
+}
+
+.navbar-link:nth-child(6){
+  top: 10rem;
+  left: 2rem;
+}
+.navbar-btn{
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  top: 44%;
+  left: 46%;
+  background-color: #ff6b6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.navbar-btn i{
+  font-size: 2rem;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.change .navbar-btn i {
+  transform: rotate(45deg);
+}
+  
+</style>
+
+<script>
+  
+document.querySelector(" .navbar-btn")
+.addEventListener("click", ()=> {
+  document.querySelector(".navbar-wrapper")
+  .classList.toggle("change");
+})
+</script>
