@@ -1,0 +1,53 @@
+<!----Copied From https://www.instagram.com/p/CRslJ8DDJ2I/ ----->
+<main>
+<div class="loader-container">
+<div class="loader"> </div>
+  <p> Loading.... </p>
+</div>
+</main>
+<style>
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', arial;
+}
+main{
+  background-color: #000;
+  position: relative;
+  min-height: 100vh;
+}
+.loader-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.loader-container p{
+  text-align: center;
+  color: #fff;
+}
+
+.loader{
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  /** This is for Safari ***/
+  -webkit-animation: spin 2s linear infinite;
+animation: spin 2s linear infinite;
+}
+
+/** For SaFari ***/
+@-webkit-keyframes spin {
+  0%{ -webkit-transfor,: rotate(0deg); }
+    100%{ -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0%{ -webkit-transfor,: rotate(0deg); }
+    100%{ -webkit-transform: rotate(360deg); }
+}
+  
+</style>
