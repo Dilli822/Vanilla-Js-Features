@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quotes Generator with JS</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: black;
+        }
+        .quote-wrapper{
+            background-color: rgb(0, 0, 0);
+            width: 450px;
+            display: block;
+            margin: 15rem auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #fff;
+        }
+
+        #quote,#author,
+        .button-wrapper{
+            text-align: center;
+            padding: 0.5rem;
+            line-height: 30px;
+        }
+
+        .button-wrapper button{
+            background-color: rgb(255, 255, 255);
+            outline: none;
+            border: none;
+            padding: 0.8rem 1rem;
+            font-size: 1rem;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="quote-wrapper">
+    <p id="quote"></p>
+    <div id="author" class="author"></div>
+    <div class="button-wrapper">
+    <button onclick="getQuote()">New Quotes</button>
+    </div>
+    </div>
+    
+    <script>
+        const Quote = document.getElementById("quote");
+        const Author = document.getElementById("author");
+
+        function getQuote(){
+            fetch("http://quotes.stormconsultancy.co.uk/random.json")
+            .then((res) => {
+                return res.json();
+            })
+
+            .then((data) => {
+                Quote.innerText = data.quote;
+                Author.innerText = ` -${data.author} `;
+            });
+        }
+        getQuote();
+        console.log(data)
+    </script>
+    
+</body>
+</html>
