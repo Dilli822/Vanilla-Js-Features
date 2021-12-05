@@ -1,0 +1,141 @@
+
+<style>
+  
+.wrapper {
+  position: relative;
+}
+.button{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 80px;
+  width: 230px;
+  padding: 0 30px;
+  border-radius: 10px;
+  color: #fff;
+  background: #000;
+}
+
+.text{
+  font-size: 19px;
+}
+
+.icon{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  color: red;
+}
+
+input{
+  position: absolute;
+  transform: scale(0);
+}
+
+.menu{
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 70px;
+  left: 0;
+  width: 100%;
+}
+
+
+.icon::before,
+.icon::after{
+  content: '';
+  top: 6px;
+  left: 11px;
+  width: 3px;
+  height: 10px;
+  border-radius: 1px;
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.icon::before{
+  transform: translate(-5px, 0) rotate(-45deg);
+}
+
+.icon::after {
+  transfor: translate(0, 0) rotate(45deg);
+}
+
+.menu ul {
+  width: 100%;
+  margin: 0;
+  padding: 24px 0;
+  background: #000;
+  border-radius: 0 0 10px 10px;
+  transform: translateY(-100%);
+  list-style: none;
+  transition: all 0.3s;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  width: inherit;
+  padding: 0 10px;
+}
+
+
+.menu li:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.menu li > a{
+  display: flex;
+  align-items: center;
+  width: inherit;
+  height: 44px;
+  padding: 0 20px;
+  border-radius: 8px;
+  font-size: 17px;
+  color: #f7f7f7;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.menu li > a:hover{
+  background: #312b3a;
+  
+}
+
+input:checked ~ .menu ul{
+  transform: translateY(0);
+}
+
+input:checked ~ .button .icon::before {
+  transform: translate(-3px, 0)
+   rotate(-45deg) scaleY(2);
+}
+
+input:checked ~ .button .icon::after {
+  transform: translate(-3px, 0)
+    rotate(45deg) scaleY(2);
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div class="wrapper">
+  <input type="checkbox" id="input" />
+  <label for="input" class="button">
+    <span class="text">
+      My Settings
+    </span>
+    <span class="">
+      <i class="fa fa-facebook"></i>
+    </span>
+  </label>
+  <div class="menu">
+    <ul>
+      <li><a> Apperance </a> </li>
+      <li><a> Account Privacy </a> </li>
+      <li> <a> Friend Requests </a> </li>
+    </ul>
+  </div>
+</div>
