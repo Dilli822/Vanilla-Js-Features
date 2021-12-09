@@ -1,0 +1,73 @@
+
+<!-- Copied From https://www.instagram.com/p/CTXHnGUjxfA/ -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<div class="container">
+  <input type="text" placeholder='search'>
+  <div class="btn">
+   <i class="fas fa-search"></i>
+  </div>
+</div>
+<style>
+  
+body{
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+.container{
+  position: absolute;
+  left: 40%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+input{
+  height: 60px;
+  width: 0px;
+  outline: none;
+  padding: 0 20px;
+  color: #000;
+  font-size: 20px;
+  box-sizing: border-box;
+  border: 1px solid #f4BF04;
+  border-radius: 50px;
+  transition: all 0.7s ease;
+  border: transparent;
+}
+
+::placeholder{
+  color: grey;
+}
+
+.btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #F4BF04;
+  line-height: 80px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn i{
+  font-size: 25px;
+  line-height: 80px;
+  color: #fff;
+  transition: all 0.7s ease;
+}
+
+.container:hover input{
+  width: 350px;
+}
+
+.container:hover i{
+  transform: rotate(-350deg);
+}
+
+</style>
