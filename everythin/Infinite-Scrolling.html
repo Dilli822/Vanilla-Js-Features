@@ -1,0 +1,58 @@
+<!-- Copied from https://www.instagram.com/p/CTZ0ey-F8Es/ -->
+<div class="container">
+  <div class="item"> 1 </div>
+  <div class="item"> 2 </div>
+  <div class="item"> 3 </div>
+  <div class="item"> 4 </div>
+  <div class="item"> 5 </div>
+  <div class="item"> 6 </div>
+</div>
+<style>
+  
+html{
+  height: 100%;
+  background-color: #EBF2FA;
+}
+
+.container{
+  overflow: hidden;
+  height: 500px;
+  width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container div{
+  background: linear-gradient(135deg,
+              #7844E9 0%, #0979FF 100%);
+  border-radius: 20px;
+  border: 10px solid #E5EDF5;
+  box-sizing: border-box;
+  box-shadow: -4px -2px 8px #fff, 4px 2px 8px rgba(95, 157, 231, 0.657315);
+  height: 300px;
+  min-width: 200px;
+  margin-left: 30px;
+  animation: slide 15s linear infinite;
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EBF2FA;
+  font-size: 70px;
+  font-family: arial;
+  text-shadow: #fff 1px 0 5px;
+}
+
+@keyframes slide {
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1500px, 0, 0)
+  }
+}
+</style>
