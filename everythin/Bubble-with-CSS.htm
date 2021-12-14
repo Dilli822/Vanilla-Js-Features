@@ -1,0 +1,137 @@
+<!--  Copied from https://www.instagram.com/p/COhscd1gNLv/ -->
+<div id="wrapper">
+  <div class="bubble x1"> 
+<!--   <img src="https://unsplash.it/150" style="border-radius: 50%;"/> -->
+  </div>
+   <div class="bubble x2"> </div>
+   <div class="bubble x3"> </div>
+   <div class="bubble x4"> </div>
+   <div class="bubble x5"> </div>
+   <div class="bubble x6"> </div>
+   <div class="bubble x7"> </div>
+   <div class="bubble x8"> </div>
+   <div class="bubble x9"> </div>
+   <div class="bubble x10"> </div>
+</div>
+<style>
+  
+  
+.x1{
+  animation: Bubble 25s linear infinite, side 2s ease-in-out infinite alternate;
+  left: 5%;
+  top: 5%;
+  transform: scale(0.6);
+}
+
+.x2 {
+  animation: Buble 20s linear infinite, side 4s ease-in-out infinite alternate;
+  left: 5%;
+  top: 80%;
+  transform: scale(0.4);
+}
+
+.x3 {
+  animation: Buble 28s linear infinite, side 3s ease-in-out infinite alternate;
+  left: 10%;
+  top: 40%;
+  transform: scale(0.7);
+}
+
+.x4{
+  animation: Buble 22s linear infinite,
+    side 3s ease-in-out infinite alternate;
+  left: 20%;
+  top: 0;
+  transform: scale(0.3);
+}
+
+.x5{
+  animation: Bubble 29s linear infinite,
+    side 3s ease-in-out infinite alternate;
+  left: 30%;
+  top: 50%;
+  transform: scale(0.5);
+}
+
+body{
+  background: #6e33d1;
+  color: #333;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#wrapper{
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.x6{
+  animation: Bubble 21s linear infinite, side 2s ease-in-out infinite alternate;
+  left: 50%;
+  top: 0;
+  transform: scale(0.8);
+}
+
+
+.x7{
+  animation: Bubble 20s linear infinite, side 2s ease-in-out infinite alternate;
+  left: 65%;
+  top: 70%;
+}
+
+
+.x8{
+  animation: Bubble 22s linear infinite, side 3s ease-in-out infinite alternate;
+  left: 80%;
+  top: 10%;
+  transform: scale(0.3);
+}
+
+
+.x9{
+  animation: Bubble 29s linear infinite, side 4s ease-in-out infinite alternate;
+  left: 90%;
+  top: 50%;
+  transform: scale(0.6);
+}
+
+
+.x10{
+  animation: Bubble 26s linear infinite, side 2s ease-in-out infinite alternate;
+  left: 80%;
+  top: 80%;
+  transform: scale(0.3);
+}
+
+.bubble {
+  border-radius: 50%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+  height: 220px;
+  position: absolute;
+  width: 220px;
+}
+
+@keyframes Bubble {
+  0%{
+    margin-top: 1000px;
+  }
+  100%{
+    margin-top: -100%;
+  }
+}
+
+@keyframes side{
+  0%{
+    margin-left: 0px;
+  }
+  100%{
+    margin-left: 50px;
+  }
+}
+</style>
