@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Footer Nav </title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .nav-input{
+            position: absolute;
+            transform: scale(0);
+        }
+
+        .nav-button{
+            position: relative; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            font-size: 2rem; 
+            /* color: #fff; */
+            padding: 0.5rem;
+        }
+
+        .nav-icon{
+            transition: all 0.35s;
+        }
+
+        .nav-text {
+            font-size: 15px;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%);
+            color: #57baf5;
+            /* visibility: hidden; */
+            /* opacity: 0; */
+            transition: all .35s;
+        }
+
+        .nav-input:checked ~ .nav-button {
+            color: #57baf5;
+        }
+
+        .nav-input:checked ~ .nav-button .nav-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .nav-input:checked ~ .nav-button .nav-icon {
+            transform: translate(-9px);
+        }
+    </style>
+</head>
+<body>
+
+    <label for="home">
+    <input type="radio" name="group" id="home">
+    <span class="nav-button">
+        <span class="nav-icon uil uil-estate">
+            <span class="nav-text">
+                Home
+            </span>
+        </span>
+    </span>
+</label>
+
+<label for="find">
+    <input type="radio" name="group" id="find">
+    <span class="nav-button">
+        <span class="nav-icon uil uil-estate">
+            <span class="nav-text">
+                Find
+            </span>
+        </span>
+    </span>
+</label>
+
+
+<label for="likes">
+    <input type="radio" name="group" id="likes">
+    <span class="nav-button">
+        <span class="nav-icon uil uil-estate">
+            <span class="nav-text">
+                Likes
+            </span>
+        </span>
+    </span>
+</label>
+
+
+
+    
+</body>
+</html>
