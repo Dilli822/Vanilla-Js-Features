@@ -1,0 +1,153 @@
+
+ <!DOCTYPE html>
+ <!-- Copied from https://www.instagram.com/p/CXvsDJsFXrM/ -->
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> LightBox in HTML CSS & JS </title>
+
+     <style>
+         *{
+             padding: 0;
+             margin: 0;
+             box-sizing: border-box;
+         }
+         .wrapper{
+             width: 960px;
+             max-width: 95%;
+             padding: 10px 0;
+             margin: 0 auto;
+         }
+
+         .parent-box{
+             display: flex;
+             flex-wrap: wrap;
+         }
+
+         .image-box{
+             width: 25%;
+             height: 227px;
+             min-width: 250px;
+             padding: 8px;
+             box-shadow: 0 0 3px #bdbdbd;
+             overflow: hidden;
+             margin-right: 15px;
+             margin-bottom: 15px;
+             cursor: zoom-in;
+             transition: all 0.2s ease-in;
+             border-radius: 4px;
+         }
+
+         .image-box img{
+             width: 100%;
+             height: 100%;
+         }
+
+         .image-box:hover{
+             box-shadow: 0 5px 30px -3px #bdbdbdbd;
+         }
+
+         .modal-box {
+             position: fixed;
+             height: 100%;
+             width: 100%;
+             background-color: rgba(3, 3, 3, 0.9);
+             transition: all 0.33s ease-out;
+         }
+
+         .modal-box .overlay{
+             position: absolute;
+             height: 100%;
+             width: 100%;
+             top: 0;
+             left: 0;
+             cursor: zoom-out;
+             z-index: 1;
+         }
+
+         .modal-box--image{
+             background-color: #fff;
+             position: absolute;
+             width: 700px;
+             height: 500px;
+             max-height: 90%;
+             max-width: 90%;
+             padding: 20px;
+             border-radius: 5px;
+             z-index: 3;
+             left: 50%;
+             top: 50%;
+             transform: translate(-50%, -50%);
+         }
+     </style>
+ </head>
+ <body>
+
+     <div class="modal-box invisible">
+         <div class="overlay"> </div>
+             <div class="modal-box--image">
+                 <img src="" alt="">
+             </div>
+     </div>
+
+
+     <div class="wrapper">
+        <div class="parent-box"> 
+            <div class="image-box">
+                <img src="https://unsplash.it/449" alt="">
+            </div>
+
+            <div class="image-box">
+                <img src="https://unsplash.it/451" alt="">
+            </div>
+
+            <div class="image-box">
+                <img src="https://unsplash.it/452" alt="">
+            </div>
+
+            <div class="image-box">
+                <img src="https://unsplash.it/453" alt="">
+            </div>
+
+            <div class="image-box">
+                <img src="https://unsplash.it/454" alt="">
+            </div>
+    
+        </div>
+    </div>
+
+
+    <script>
+        var modalBox = document.querySelector('.modal-box'),
+        modalBoxImg = modalBox.querySelector('.modal-box--image'),
+        overlay = document.querySelector('.overlay'),
+        imageBox = document.querySelector('.image-box'),
+        modalImgBox = modalBoxImg.querySelector('img');
+
+
+        for (let i = 0; i < imageBox.length; i++){ 
+            imageBox[i].onclick = function () {
+                modalBox.classList.remove('invisible');
+
+                var imgSrc = this.querySelector('img').src;
+
+                modalImgBox.src = imgSrc;
+            }
+        }
+
+        overlay.onclick = function () {
+            modalBox.classList.add('invisible');
+        }
+
+        window.onkeydown = function (e) {
+            if (e.keyCode === 27){
+                modalBox.classList.add('invisible');
+            }
+        }
+
+    </script>
+    
+ </body>
+ </html>
