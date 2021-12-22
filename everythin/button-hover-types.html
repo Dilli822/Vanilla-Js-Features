@@ -1,0 +1,119 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Button Types with Hover </title>
+
+     <style>
+         button{
+             position: relative;
+             border: 1px #dfdfdf;
+             padding: 1rem  2rem;
+             transition: .4s ease-in;
+             z-index: 1;
+         }
+         button::before,
+         button::after{
+             position: absolute;
+             content: "";
+             z-index: -1;
+         }
+         
+         .btn-1:hover{
+             background-color: #ff96ad;
+             box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+         }
+
+         .btn-2:hover{
+             box-shadow: inset -10.5em 0 0 0 #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+         }
+
+         /* Shuuter Effect */
+         .btn-3::after{
+             height: 0;
+             left: 0;
+             top: 0;
+             transition-duration: .6s;
+             width: 100%;
+         }
+
+         .btn-3:hover::after{
+             height: 100%;
+             background-color: #ff96ad;
+         }
+
+         .btn-4::after{
+             height: 0;
+             left: 0;
+             bottom: 0;
+             transition-duration: 0.6s;
+             width: 100%;
+         }
+
+         .btn-4:hover::after{
+             height: 100%;
+             background-color: #ff96ad;
+         }
+
+         /* Double Effect */
+         .btn-7:hover{
+             box-shadow: 10px 10px 0px #ff96ad;
+             top: -5px;
+             left: -5px;
+         }
+
+         /* Shine Effect */
+         .btn-6::after{
+             height: 100%;
+             left: -15%;
+             top: 0;
+             transform: skew(30deg);
+             transition-duration: 0.6s;
+             transform-origin: top;
+             width: 0;
+             background-color: #ff96ad;
+
+         }
+
+         .btn-6:hover:after{
+             height: 100%;
+             width: 135%;
+             background-color: #ff96ad;
+
+         }
+
+         .btn-6:hover::after{
+            width: 100%;
+            background-color: #ff96ad;
+         }
+      
+       
+     </style>
+ </head>
+ <body>
+     <div>
+
+             <button class="btn-1">Button 1</button>
+
+             <button class="btn-2">Button 2</button>
+
+             <button class="btn-3">Button 3 </button>
+
+             <button class="btn-4">Button 4</button>
+
+             <button class="btn-5">Button 5</button>
+
+             <br><br>
+
+             <button class="btn-6">Button 6</button>
+             <br>
+             <br>
+
+             <button class="btn-7">Button 7</button>
+ 
+     </div>
+ </body>
+ </html>
